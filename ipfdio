@@ -99,7 +99,12 @@ local function JJFIP_fake_script() -- openBtn.openScript
 	
 	btn.MouseButton1Click:Connect(function()	
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/lr77world/ir77/main/file1"))()
+		wait(0.001)
 		openKr:Destroy()
 	end)
 end
 	coroutine.wrap(JJFIP_fake_script)()
+
+
+
+
