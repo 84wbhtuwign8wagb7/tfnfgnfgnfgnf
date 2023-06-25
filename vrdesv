@@ -534,41 +534,13 @@ local TextBox_4 = Instance.new("TextBox")
 local message = Instance.new("Frame")
 local statusImage_8 = Instance.new("ImageLabel")
 local UIAspectRatioConstraint_146 = Instance.new("UIAspectRatioConstraint")
-local SaveScript = Instance.new("Frame")
-local clearFrame_2 = Instance.new("Frame")
-local tess = Instance.new("Frame")
-local TextLabel_90 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_147 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_71 = Instance.new("UITextSizeConstraint")
-local clear_2 = Instance.new("TextButton")
-local UIAspectRatioConstraint_148 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_72 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_149 = Instance.new("UIAspectRatioConstraint")
-local Frame_32 = Instance.new("Frame")
-local TextLabel_91 = Instance.new("TextLabel")
-local UITextSizeConstraint_73 = Instance.new("UITextSizeConstraint")
-local TextButton_13 = Instance.new("TextButton")
-local UIAspectRatioConstraint_150 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_74 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_151 = Instance.new("UIAspectRatioConstraint")
-local TextLabel_92 = Instance.new("TextLabel")
-local UITextSizeConstraint_75 = Instance.new("UITextSizeConstraint")
-local ImageButton_2 = Instance.new("ImageButton")
-local UIAspectRatioConstraint_152 = Instance.new("UIAspectRatioConstraint")
-local FileName = Instance.new("Frame")
-local FileName_2 = Instance.new("TextBox")
-local ImageLabel_53 = Instance.new("ImageLabel")
-local scrip = Instance.new("Frame")
-local Scrip = Instance.new("TextBox")
-local ImageLabel_54 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_153 = Instance.new("UIAspectRatioConstraint")
 
 --[[
 	Properties:
 --]]
 
 kr.Name = "kr"
-kr.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+kr.Parent = (game:GetService("CoreGui") or gethui())
 kr.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 kr.ResetOnSpawn = false
 
@@ -961,7 +933,6 @@ HomePage.BackgroundColor3 = Color3.new(0.101961, 0.105882, 0.12549)
 HomePage.BorderColor3 = Color3.new(0.0901961, 0.0941176, 0.105882)
 HomePage.Position = UDim2.new(0, 112, 0, 41)
 HomePage.Size = UDim2.new(0, 445, 0, 295)
-HomePage.Visible = false
 
 UIAspectRatioConstraint_19.Parent = HomePage
 UIAspectRatioConstraint_19.AspectRatio = 1.4932886362075806
@@ -1613,6 +1584,7 @@ ScriptsPage.BackgroundColor3 = Color3.new(0.101961, 0.105882, 0.12549)
 ScriptsPage.BorderColor3 = Color3.new(0.0901961, 0.0941176, 0.105882)
 ScriptsPage.Position = UDim2.new(0, 112, 0, 41)
 ScriptsPage.Size = UDim2.new(0, 445, 0, 295)
+ScriptsPage.Visible = false
 
 UIAspectRatioConstraint_21.Parent = ScriptsPage
 UIAspectRatioConstraint_21.AspectRatio = 1.4932886362075806
@@ -1742,7 +1714,7 @@ ScrollingFrame_4.BorderSizePixel = 0
 ScrollingFrame_4.Position = UDim2.new(3.82425789e-08, 0, 0.00549450563, 0)
 ScrollingFrame_4.Size = UDim2.new(0, 398, 0, 180)
 ScrollingFrame_4.CanvasSize = UDim2.new(0, 0, 10, 0)
-ScrollingFrame_4.ScrollBarThickness = 5
+ScrollingFrame_4.ScrollBarThickness = 8
 
 frame.Name = "frame"
 frame.Parent = ScrollingFrame_4
@@ -1802,7 +1774,7 @@ toolsFrame.ZIndex = 99999999
 EditDel.Name = "EditDel"
 EditDel.Parent = toolsFrame
 EditDel.BackgroundColor3 = Color3.new(0.12549, 0.129412, 0.152941)
-EditDel.Position = UDim2.new(0, 93, 0, 28)
+EditDel.Position = UDim2.new(0, 89, 0, 9)
 EditDel.Size = UDim2.new(0, 78, 0, 29)
 EditDel.ZIndex = 999999999
 
@@ -4171,212 +4143,11 @@ statusImage_8.ImageColor3 = Color3.new(0.027451, 0.670588, 0.466667)
 
 UIAspectRatioConstraint_146.Parent = statusImage_8
 
-SaveScript.Name = "SaveScript"
-SaveScript.Parent = MainMenu
-SaveScript.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0666667)
-SaveScript.BackgroundTransparency = 0.10000000149011612
-SaveScript.Size = UDim2.new(0, 554, 0, 339)
-SaveScript.Visible = false
-SaveScript.ZIndex = 999999999
-
-clearFrame_2.Name = "clearFrame"
-clearFrame_2.Parent = SaveScript
-clearFrame_2.BackgroundColor3 = Color3.new(0.101961, 0.105882, 0.117647)
-clearFrame_2.ClipsDescendants = true
-clearFrame_2.Position = UDim2.new(0, 80, 0, 44)
-clearFrame_2.Size = UDim2.new(0, 410, 0, 253)
-clearFrame_2.ZIndex = 999999999
-
-tess.Name = "tess"
-tess.Parent = clearFrame_2
-tess.BackgroundColor3 = Color3.new(0.0196078, 0.478431, 0.333333)
-tess.Position = UDim2.new(0, 280, 0, 206)
-tess.Size = UDim2.new(0, 117, 0, 36)
-tess.ZIndex = 999999999
-
-TextLabel_90.Parent = tess
-TextLabel_90.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_90.BackgroundTransparency = 1
-TextLabel_90.Position = UDim2.new(0, 14, 0, 4)
-TextLabel_90.Size = UDim2.new(0, 91, 0, 27)
-TextLabel_90.ZIndex = 999999999
-TextLabel_90.Font = Enum.Font.GothamBold
-TextLabel_90.Text = "Save Script"
-TextLabel_90.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_90.TextScaled = true
-TextLabel_90.TextSize = 13
-TextLabel_90.TextWrapped = true
-
-UIAspectRatioConstraint_147.Parent = TextLabel_90
-UIAspectRatioConstraint_147.AspectRatio = 3.370370388031006
-
-UITextSizeConstraint_71.Parent = TextLabel_90
-UITextSizeConstraint_71.MaxTextSize = 13
-
-clear_2.Name = "clear"
-clear_2.Parent = tess
-clear_2.BackgroundColor3 = Color3.new(1, 1, 1)
-clear_2.BackgroundTransparency = 1
-clear_2.Size = UDim2.new(0, 116, 0, 35)
-clear_2.ZIndex = 999999999
-clear_2.Font = Enum.Font.GothamBold
-clear_2.Text = "  "
-clear_2.TextColor3 = Color3.new(0, 0, 0)
-clear_2.TextScaled = true
-clear_2.TextSize = 14
-clear_2.TextWrapped = true
-
-UIAspectRatioConstraint_148.Parent = clear_2
-UIAspectRatioConstraint_148.AspectRatio = 3.3142857551574707
-
-UITextSizeConstraint_72.Parent = clear_2
-UITextSizeConstraint_72.MaxTextSize = 14
-
-UIAspectRatioConstraint_149.Parent = tess
-UIAspectRatioConstraint_149.AspectRatio = 3.25
-
-Frame_32.Parent = clearFrame_2
-Frame_32.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.172549)
-Frame_32.Position = UDim2.new(0, 185, 0, 207)
-Frame_32.Size = UDim2.new(0, 89, 0, 33)
-Frame_32.ZIndex = 999999999
-
-TextLabel_91.Parent = Frame_32
-TextLabel_91.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_91.BackgroundTransparency = 1
-TextLabel_91.Position = UDim2.new(0, -1, 0, 4)
-TextLabel_91.Size = UDim2.new(0, 91, 0, 23)
-TextLabel_91.ZIndex = 999999999
-TextLabel_91.Font = Enum.Font.GothamBold
-TextLabel_91.Text = "Cancel"
-TextLabel_91.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_91.TextScaled = true
-TextLabel_91.TextSize = 13
-TextLabel_91.TextWrapped = true
-
-UITextSizeConstraint_73.Parent = TextLabel_91
-UITextSizeConstraint_73.MaxTextSize = 13
-
-TextButton_13.Parent = Frame_32
-TextButton_13.BackgroundColor3 = Color3.new(1, 1, 1)
-TextButton_13.BackgroundTransparency = 1
-TextButton_13.Position = UDim2.new(0, -2, 0, -1)
-TextButton_13.Size = UDim2.new(0, 93, 0, 36)
-TextButton_13.Visible = false
-TextButton_13.ZIndex = 999999999
-TextButton_13.Font = Enum.Font.GothamBold
-TextButton_13.Text = "  "
-TextButton_13.TextColor3 = Color3.new(0, 0, 0)
-TextButton_13.TextScaled = true
-TextButton_13.TextSize = 14
-TextButton_13.TextWrapped = true
-
-UIAspectRatioConstraint_150.Parent = TextButton_13
-UIAspectRatioConstraint_150.AspectRatio = 2.5833332538604736
-
-UITextSizeConstraint_74.Parent = TextButton_13
-UITextSizeConstraint_74.MaxTextSize = 14
-
-UIAspectRatioConstraint_151.Parent = Frame_32
-UIAspectRatioConstraint_151.AspectRatio = 2.696969747543335
-
-TextLabel_92.Parent = clearFrame_2
-TextLabel_92.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_92.BackgroundTransparency = 1
-TextLabel_92.Position = UDim2.new(0, -29, 0, 8)
-TextLabel_92.Size = UDim2.new(0, 207, 0, 38)
-TextLabel_92.ZIndex = 999999999
-TextLabel_92.Font = Enum.Font.Gotham
-TextLabel_92.Text = "Save a Script"
-TextLabel_92.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_92.TextScaled = true
-TextLabel_92.TextSize = 16
-TextLabel_92.TextWrapped = true
-
-UITextSizeConstraint_75.Parent = TextLabel_92
-UITextSizeConstraint_75.MaxTextSize = 16
-
-ImageButton_2.Parent = clearFrame_2
-ImageButton_2.BackgroundColor3 = Color3.new(1, 1, 1)
-ImageButton_2.BackgroundTransparency = 1
-ImageButton_2.Position = UDim2.new(0, 375, 0, 21)
-ImageButton_2.Size = UDim2.new(0, 18, 0, 18)
-ImageButton_2.ZIndex = 999999999
-ImageButton_2.Image = "http://www.roblox.com/asset/?id=6031094678"
-
-UIAspectRatioConstraint_152.Parent = ImageButton_2
-
-FileName.Name = "FileName"
-FileName.Parent = clearFrame_2
-FileName.BackgroundColor3 = Color3.new(1, 1, 1)
-FileName.Position = UDim2.new(0.0356939547, 0, 0.259868652, 0)
-FileName.Size = UDim2.new(0, 387, 0, 35)
-FileName.ZIndex = 999999999
-
-FileName_2.Name = "FileName"
-FileName_2.Parent = FileName
-FileName_2.BackgroundColor3 = Color3.new(1, 1, 1)
-FileName_2.BackgroundTransparency = 1
-FileName_2.Position = UDim2.new(0.102447748, 0, 0.142124727, 0)
-FileName_2.Size = UDim2.new(0, 341, 0, 26)
-FileName_2.ZIndex = 999999999
-FileName_2.ClearTextOnFocus = false
-FileName_2.Font = Enum.Font.Gotham
-FileName_2.PlaceholderColor3 = Color3.new(0.392157, 0.392157, 0.427451)
-FileName_2.PlaceholderText = "Give your Script a cool name!"
-FileName_2.Text = ""
-FileName_2.TextColor3 = Color3.new(0.392157, 0.392157, 0.427451)
-FileName_2.TextSize = 14
-FileName_2.TextXAlignment = Enum.TextXAlignment.Left
-
-ImageLabel_53.Parent = FileName
-ImageLabel_53.BackgroundColor3 = Color3.new(1, 1, 1)
-ImageLabel_53.BackgroundTransparency = 1
-ImageLabel_53.Position = UDim2.new(0.0217137616, 0, 0.235714287, 0)
-ImageLabel_53.Size = UDim2.new(0, 19, 0, 19)
-ImageLabel_53.ZIndex = 999999999
-ImageLabel_53.Image = "http://www.roblox.com/asset/?id=6031154871"
-ImageLabel_53.ImageColor3 = Color3.new(0.482353, 0.486275, 0.505882)
-
-scrip.Name = "scrip"
-scrip.Parent = clearFrame_2
-scrip.BackgroundColor3 = Color3.new(1, 1, 1)
-scrip.Position = UDim2.new(0.0356939547, 0, 0.497022808, 0)
-scrip.Size = UDim2.new(0, 387, 0, 35)
-scrip.ZIndex = 999999999
-
-Scrip.Name = "Scrip"
-Scrip.Parent = scrip
-Scrip.BackgroundColor3 = Color3.new(1, 1, 1)
-Scrip.BackgroundTransparency = 1
-Scrip.Position = UDim2.new(0.100381777, 0, 0.142124727, 0)
-Scrip.Size = UDim2.new(0, 339, 0, 26)
-Scrip.ClearTextOnFocus = false
-Scrip.Font = Enum.Font.Gotham
-Scrip.PlaceholderColor3 = Color3.new(0.392157, 0.392157, 0.427451)
-Scrip.PlaceholderText = "Put your script in here!"
-Scrip.Text = ""
-Scrip.TextColor3 = Color3.new(0.392157, 0.392157, 0.427451)
-Scrip.TextSize = 14
-Scrip.TextXAlignment = Enum.TextXAlignment.Left
-
-ImageLabel_54.Parent = scrip
-ImageLabel_54.BackgroundColor3 = Color3.new(1, 1, 1)
-ImageLabel_54.BackgroundTransparency = 1
-ImageLabel_54.Position = UDim2.new(0.0217137616, 0, 0.264285713, 0)
-ImageLabel_54.Size = UDim2.new(0, 19, 0, 19)
-ImageLabel_54.ZIndex = 999999999
-ImageLabel_54.Image = "http://www.roblox.com/asset/?id=6031154871"
-ImageLabel_54.ImageColor3 = Color3.new(0.482353, 0.486275, 0.505882)
-
-UIAspectRatioConstraint_153.Parent = SaveScript
-UIAspectRatioConstraint_153.AspectRatio = 1.6342183351516724
-
 --[[
 	 Scripts:
 --]]
 
-local function MJXBNU_fake_script() -- openBtn.openScript 
+local function VMKIE_fake_script() -- openBtn.openScript 
 	local script = Instance.new('LocalScript', openBtn)
 
 	local btn = script.Parent.Parent.openBtn
@@ -4391,8 +4162,8 @@ local function MJXBNU_fake_script() -- openBtn.openScript
 		openKr.ImageTransparency = 0.04
 	end)
 end
-coroutine.wrap(MJXBNU_fake_script)()
-local function ECXEUB_fake_script() -- OpenKr.drag 
+coroutine.wrap(VMKIE_fake_script)()
+local function CVPIPP_fake_script() -- OpenKr.drag 
 	local script = Instance.new('LocalScript', OpenKr)
 
 	local UIS = game:GetService('UserInputService')
@@ -4430,8 +4201,8 @@ local function ECXEUB_fake_script() -- OpenKr.drag
 		end
 	end)
 end
-coroutine.wrap(ECXEUB_fake_script)()
-local function BJJW_fake_script() -- MainMenu.drag 
+coroutine.wrap(CVPIPP_fake_script)()
+local function IUYSWY_fake_script() -- MainMenu.drag 
 	local script = Instance.new('LocalScript', MainMenu)
 
 	local UIS = game:GetService('UserInputService')
@@ -4470,8 +4241,8 @@ local function BJJW_fake_script() -- MainMenu.drag
 	end)
 	
 end
-coroutine.wrap(BJJW_fake_script)()
-local function XEAKD_fake_script() -- TextBox_2.LocalScript 
+coroutine.wrap(IUYSWY_fake_script)()
+local function OUCRZB_fake_script() -- TextBox_2.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_2)
 
 	local textbox1 = script.Parent.Parent.Parent.Parent.Parent.Parent.MainMenu.EditorPage.Editor.ScrollingFrame.TextBox
@@ -4483,9 +4254,9 @@ local function XEAKD_fake_script() -- TextBox_2.LocalScript
 	
 	textbox1.Changed:Connect(syncText)
 end
-coroutine.wrap(XEAKD_fake_script)()
+coroutine.wrap(OUCRZB_fake_script)()
 -- preview.LocalScript is disabled.
-local function MACCM_fake_script() -- clearBtn.LocalScript 
+local function BIDHP_fake_script() -- clearBtn.LocalScript 
 	local script = Instance.new('LocalScript', clearBtn)
 
 	local btn = script.Parent.Parent.clearBtn
@@ -4495,8 +4266,8 @@ local function MACCM_fake_script() -- clearBtn.LocalScript
 		clearW.Visible = true
 	end)
 end
-coroutine.wrap(MACCM_fake_script)()
-local function ICGQVZO_fake_script() -- ExecuteBtn.LocalScript 
+coroutine.wrap(BIDHP_fake_script)()
+local function YMXH_fake_script() -- ExecuteBtn.LocalScript 
 	local script = Instance.new('LocalScript', ExecuteBtn)
 
 	local btn = script.Parent.Parent.ExecuteBtn
@@ -4530,16 +4301,16 @@ local function ICGQVZO_fake_script() -- ExecuteBtn.LocalScript
 	end)
 	
 end
-coroutine.wrap(ICGQVZO_fake_script)()
-local function EVNBYXN_fake_script() -- saveBtn.LocalScript 
+coroutine.wrap(YMXH_fake_script)()
+local function OCSWVMF_fake_script() -- saveBtn.LocalScript 
 	local script = Instance.new('LocalScript', saveBtn)
 
 	script.Parent.Parent.saveBtn.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.SaveScript.Visible = true
 	end)
 end
-coroutine.wrap(EVNBYXN_fake_script)()
-local function XFMRR_fake_script() -- openConsole.LocalScript 
+coroutine.wrap(OCSWVMF_fake_script)()
+local function BPRJW_fake_script() -- openConsole.LocalScript 
 	local script = Instance.new('LocalScript', openConsole)
 
 	local consolePage = script.Parent.Parent.Parent.Parent.Parent.CONSOLEPAGE
@@ -4561,15 +4332,15 @@ local function XFMRR_fake_script() -- openConsole.LocalScript
 	end)
 	
 end
-coroutine.wrap(XFMRR_fake_script)()
-local function BFFWRF_fake_script() -- Pattern.LocalScript 
+coroutine.wrap(BPRJW_fake_script)()
+local function XZDIJJS_fake_script() -- Pattern.LocalScript 
 	local script = Instance.new('LocalScript', Pattern)
 
 	print("Hello world!")
 	
 end
-coroutine.wrap(BFFWRF_fake_script)()
-local function UMKHDFU_fake_script() -- SavedBtn.LocalScript 
+coroutine.wrap(XZDIJJS_fake_script)()
+local function URNRUND_fake_script() -- SavedBtn.LocalScript 
 	local script = Instance.new('LocalScript', SavedBtn)
 
 	local pr1 = script.Parent.Parent.Parent
@@ -4605,8 +4376,8 @@ local function UMKHDFU_fake_script() -- SavedBtn.LocalScript
 		fB.BackgroundColor3 = color2
 	end)
 end
-coroutine.wrap(UMKHDFU_fake_script)()
-local function QXVZS_fake_script() -- HubBtn.LocalScript 
+coroutine.wrap(URNRUND_fake_script)()
+local function CTQRVEK_fake_script() -- HubBtn.LocalScript 
 	local script = Instance.new('LocalScript', HubBtn)
 
 	local pr1 = script.Parent.Parent.Parent
@@ -4642,8 +4413,8 @@ local function QXVZS_fake_script() -- HubBtn.LocalScript
 		fB.BackgroundColor3 = color2
 	end)
 end
-coroutine.wrap(QXVZS_fake_script)()
-local function DZWBL_fake_script() -- favBtn.LocalScript 
+coroutine.wrap(CTQRVEK_fake_script)()
+local function YWDWV_fake_script() -- favBtn.LocalScript 
 	local script = Instance.new('LocalScript', favBtn)
 
 	local pr1 = script.Parent.Parent.Parent
@@ -4679,8 +4450,8 @@ local function DZWBL_fake_script() -- favBtn.LocalScript
 		fB.BackgroundColor3 = color1
 	end)
 end
-coroutine.wrap(DZWBL_fake_script)()
-local function JXQZXY_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(YWDWV_fake_script)()
+local function NUBDI_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local btn = script.Parent.Parent.TextButton
@@ -4689,8 +4460,8 @@ local function JXQZXY_fake_script() -- TextButton.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 end
-coroutine.wrap(JXQZXY_fake_script)()
-local function YWJN_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(NUBDI_fake_script)()
+local function UUEV_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local btn = script.Parent.Parent.TextButton
@@ -4699,8 +4470,8 @@ local function YWJN_fake_script() -- TextButton_2.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
 	end)
 end
-coroutine.wrap(YWJN_fake_script)()
-local function KTPMH_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(UUEV_fake_script)()
+local function RAVA_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local btn = script.Parent.Parent.TextButton
@@ -4709,8 +4480,8 @@ local function KTPMH_fake_script() -- TextButton_3.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 	end)
 end
-coroutine.wrap(KTPMH_fake_script)()
-local function MCUCSF_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(RAVA_fake_script)()
+local function BJWWEW_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	local btn = script.Parent.Parent.TextButton
@@ -4719,8 +4490,8 @@ local function MCUCSF_fake_script() -- TextButton_4.LocalScript
 		loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
 	end)
 end
-coroutine.wrap(MCUCSF_fake_script)()
-local function OOKXE_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(BJWWEW_fake_script)()
+local function UOLUVZO_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	local btn = script.Parent.Parent.TextButton
@@ -4729,8 +4500,8 @@ local function OOKXE_fake_script() -- TextButton_5.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Game_Hub_v1.5/main/loader"))()
 	end)
 end
-coroutine.wrap(OOKXE_fake_script)()
-local function HQFIOP_fake_script() -- TextBox_3.LocalScript 
+coroutine.wrap(UOLUVZO_fake_script)()
+local function QUZISE_fake_script() -- TextBox_3.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_3)
 
 	local textBox = script.Parent.Parent.TextBox
@@ -4750,8 +4521,8 @@ local function HQFIOP_fake_script() -- TextBox_3.LocalScript
 	
 	textBox.FocusLost:Connect(onTextBoxFocusLost)
 end
-coroutine.wrap(HQFIOP_fake_script)()
-local function CMCSSAH_fake_script() -- refreshBtn.LocalScript 
+coroutine.wrap(QUZISE_fake_script)()
+local function UWYBOB_fake_script() -- refreshBtn.LocalScript 
 	local script = Instance.new('LocalScript', refreshBtn)
 
 	local TweenService = game:GetService("TweenService")
@@ -4775,8 +4546,8 @@ local function CMCSSAH_fake_script() -- refreshBtn.LocalScript
 	end)
 	
 end
-coroutine.wrap(CMCSSAH_fake_script)()
-local function UYYMYG_fake_script() -- dots.LocalScript 
+coroutine.wrap(UWYBOB_fake_script)()
+local function TBPX_fake_script() -- dots.LocalScript 
 	local script = Instance.new('LocalScript', dots)
 
 	local btn = script.Parent.Parent.dots
@@ -4786,28 +4557,21 @@ local function UYYMYG_fake_script() -- dots.LocalScript
 		frame.Visible =  not frame.Visible
 	end)
 end
-coroutine.wrap(UYYMYG_fake_script)()
-local function JAIWAQ_fake_script() -- trigger.LocalScript 
+coroutine.wrap(TBPX_fake_script)()
+local function DGOYZ_fake_script() -- trigger.LocalScript 
 	local script = Instance.new('LocalScript', trigger)
 
 	local btn = script.Parent.Parent.trigger
 	local frame = script.Parent.Parent.Parent.frame
-	local debounce = false
 	
 	btn.MouseButton1Click:Connect(function()
-	 
-		if debounce == false then
-			debounce = true
 			frame.BackgroundColor3 = Color3.fromRGB(43, 45, 52)
 			wait(0.1)
 			frame.BackgroundColor3 = Color3.fromRGB(36, 37, 43)
-			wait(2)
-			debounce = false
-		end
 	end)
 end
-coroutine.wrap(JAIWAQ_fake_script)()
-local function QTOZ_fake_script() -- ToggleBar.LocalScript 
+coroutine.wrap(DGOYZ_fake_script)()
+local function ZJRRQ_fake_script() -- ToggleBar.LocalScript 
 	local script = Instance.new('LocalScript', ToggleBar)
 
 	local toggleScript = false
@@ -4843,8 +4607,8 @@ local function QTOZ_fake_script() -- ToggleBar.LocalScript
 	script.Parent.MouseButton1Click:Connect(toggleButton)
 	
 end
-coroutine.wrap(QTOZ_fake_script)()
-local function WNFI_fake_script() -- ToggleBar_2.LocalScript 
+coroutine.wrap(ZJRRQ_fake_script)()
+local function CTAPI_fake_script() -- ToggleBar_2.LocalScript 
 	local script = Instance.new('LocalScript', ToggleBar_2)
 
 	local toggleScript = false
@@ -4880,9 +4644,9 @@ local function WNFI_fake_script() -- ToggleBar_2.LocalScript
 	script.Parent.MouseButton1Click:Connect(toggleButton)
 	
 end
-coroutine.wrap(WNFI_fake_script)()
+coroutine.wrap(CTAPI_fake_script)()
 -- cOE.LocalScript is disabled.
-local function XCTLFM_fake_script() -- ToggleBar_3.LocalScript 
+local function DVATGY_fake_script() -- ToggleBar_3.LocalScript 
 	local script = Instance.new('LocalScript', ToggleBar_3)
 
 	local toggleScript = false
@@ -4924,8 +4688,8 @@ local function XCTLFM_fake_script() -- ToggleBar_3.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(toggleButton)
 end
-coroutine.wrap(XCTLFM_fake_script)()
-local function XIEVCV_fake_script() -- ToggleBar_4.LocalScript 
+coroutine.wrap(DVATGY_fake_script)()
+local function EZMCSXH_fake_script() -- ToggleBar_4.LocalScript 
 	local script = Instance.new('LocalScript', ToggleBar_4)
 
 	local toggleScript = false
@@ -4956,8 +4720,8 @@ local function XIEVCV_fake_script() -- ToggleBar_4.LocalScript
 	script.Parent.MouseButton1Click:Connect(toggleButton)
 	
 end
-coroutine.wrap(XIEVCV_fake_script)()
-local function LWAUKY_fake_script() -- ToggleBar_5.LocalScript 
+coroutine.wrap(EZMCSXH_fake_script)()
+local function LFJC_fake_script() -- ToggleBar_5.LocalScript 
 	local script = Instance.new('LocalScript', ToggleBar_5)
 
 	local toggleScript = false
@@ -4997,8 +4761,8 @@ local function LWAUKY_fake_script() -- ToggleBar_5.LocalScript
 	script.Parent.MouseButton1Click:Connect(toggleButton)
 	
 end
-coroutine.wrap(LWAUKY_fake_script)()
-local function YVZTGZI_fake_script() -- ToggleBar_6.LocalScript 
+coroutine.wrap(LFJC_fake_script)()
+local function BAMCDV_fake_script() -- ToggleBar_6.LocalScript 
 	local script = Instance.new('LocalScript', ToggleBar_6)
 
 	local toggleScript = false
@@ -5035,8 +4799,8 @@ local function YVZTGZI_fake_script() -- ToggleBar_6.LocalScript
 	script.Parent.MouseButton1Click:Connect(toggleButton)
 	
 end
-coroutine.wrap(YVZTGZI_fake_script)()
-local function LEBTZO_fake_script() -- TextLabel_56.LocalScript 
+coroutine.wrap(BAMCDV_fake_script)()
+local function MPYF_fake_script() -- TextLabel_56.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_56)
 
 	local label = script.Parent.Parent.TextLabel
@@ -5056,8 +4820,8 @@ local function LEBTZO_fake_script() -- TextLabel_56.LocalScript
 	end
 	
 end
-coroutine.wrap(LEBTZO_fake_script)()
-local function TQJFL_fake_script() -- DName.LocalScript 
+coroutine.wrap(MPYF_fake_script)()
+local function MSDIW_fake_script() -- DName.LocalScript 
 	local script = Instance.new('LocalScript', DName)
 
 	local player = game.Players.LocalPlayer
@@ -5070,8 +4834,8 @@ local function TQJFL_fake_script() -- DName.LocalScript
 	end)
 	
 end
-coroutine.wrap(TQJFL_fake_script)()
-local function QOYXX_fake_script() -- view.LocalScript 
+coroutine.wrap(MSDIW_fake_script)()
+local function ZLDOUQ_fake_script() -- view.LocalScript 
 	local script = Instance.new('LocalScript', view)
 
 	local ConsoleFrameRemove = script.Parent.Parent.Parent.Parent.ConsolePage
@@ -5083,8 +4847,8 @@ local function QOYXX_fake_script() -- view.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QOYXX_fake_script)()
-local function UDXF_fake_script() -- Sidebar.TabHandler 
+coroutine.wrap(ZLDOUQ_fake_script)()
+local function XQKPVEM_fake_script() -- Sidebar.TabHandler 
 	local script = Instance.new('LocalScript', Sidebar)
 
 	local currentPage = 1
@@ -5180,8 +4944,8 @@ local function UDXF_fake_script() -- Sidebar.TabHandler
 	end
 	
 end
-coroutine.wrap(UDXF_fake_script)()
-local function XGEF_fake_script() -- closeBtn.LocalScript 
+coroutine.wrap(XQKPVEM_fake_script)()
+local function YBJXXL_fake_script() -- closeBtn.LocalScript 
 	local script = Instance.new('LocalScript', closeBtn)
 
 	local isOpen = false 
@@ -5222,8 +4986,8 @@ local function XGEF_fake_script() -- closeBtn.LocalScript
 	script.Parent.Parent.closeBtn.MouseButton1Click:Connect(CloseUI)
 	
 end
-coroutine.wrap(XGEF_fake_script)()
-local function JYMMOL_fake_script() -- hidebtn.LocalScript 
+coroutine.wrap(YBJXXL_fake_script)()
+local function LJUQYBY_fake_script() -- hidebtn.LocalScript 
 	local script = Instance.new('LocalScript', hidebtn)
 
 	local frames = script.Parent.Parent.Parent.Parent.MainMenu
@@ -5241,8 +5005,8 @@ local function JYMMOL_fake_script() -- hidebtn.LocalScript
 		icon.ImageTransparency = 0.99
 	end)
 end
-coroutine.wrap(JYMMOL_fake_script)()
-local function IRRDNIJ_fake_script() -- WelcomeWindow.LocalScript 
+coroutine.wrap(LJUQYBY_fake_script)()
+local function BLCPU_fake_script() -- WelcomeWindow.LocalScript 
 	local script = Instance.new('LocalScript', WelcomeWindow)
 
 	local wmenu = script.Parent.Parent.WelcomeWindow
@@ -5251,8 +5015,8 @@ local function IRRDNIJ_fake_script() -- WelcomeWindow.LocalScript
 	
 	wmenu.Visible = true
 end
-coroutine.wrap(IRRDNIJ_fake_script)()
-local function INTY_fake_script() -- iagree.LocalScript 
+coroutine.wrap(BLCPU_fake_script)()
+local function NFPYRO_fake_script() -- iagree.LocalScript 
 	local script = Instance.new('LocalScript', iagree)
 
 	local btn = script.Parent.Parent.iagree
@@ -5263,8 +5027,8 @@ local function INTY_fake_script() -- iagree.LocalScript
 		wmenu.Visible = false
 	end)
 end
-coroutine.wrap(INTY_fake_script)()
-local function QOCO_fake_script() -- clear.TEST 
+coroutine.wrap(NFPYRO_fake_script)()
+local function NFRHR_fake_script() -- clear.TEST 
 	local script = Instance.new('LocalScript', clear)
 
 	local btn = script.Parent.Parent.clear
@@ -5279,8 +5043,8 @@ local function QOCO_fake_script() -- clear.TEST
 		clearW.Visible = false
 	end)
 end
-coroutine.wrap(QOCO_fake_script)()
-local function DBLYSU_fake_script() -- TextButton_12.LocalScript 
+coroutine.wrap(NFRHR_fake_script)()
+local function KQBD_fake_script() -- TextButton_12.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_12)
 
 	local btn = script.Parent.Parent.TextButton
@@ -5291,8 +5055,8 @@ local function DBLYSU_fake_script() -- TextButton_12.LocalScript
 		clearW.Visible = false
 	end)
 end
-coroutine.wrap(DBLYSU_fake_script)()
-local function CDUR_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(KQBD_fake_script)()
+local function BFNJUN_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local btn = script.Parent.Parent.ImageButton
@@ -5303,8 +5067,8 @@ local function CDUR_fake_script() -- ImageButton.LocalScript
 		clearW.Visible = false
 	end)
 end
-coroutine.wrap(CDUR_fake_script)()
-local function FEYXREC_fake_script() -- DName_2.LocalScript 
+coroutine.wrap(BFNJUN_fake_script)()
+local function BWTGW_fake_script() -- DName_2.LocalScript 
 	local script = Instance.new('LocalScript', DName_2)
 
 	local player = game.Players.LocalPlayer
@@ -5317,8 +5081,8 @@ local function FEYXREC_fake_script() -- DName_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(FEYXREC_fake_script)()
-local function ADAWSS_fake_script() -- ConsolePage.Script 
+coroutine.wrap(BWTGW_fake_script)()
+local function BRIMUE_fake_script() -- ConsolePage.Script 
 	local script = Instance.new('Script', ConsolePage)
 
 	local ScrollingFrame = script.Parent.ScrollingFrame
@@ -5341,56 +5105,4 @@ local function ADAWSS_fake_script() -- ConsolePage.Script
 		appendfile("rest.txt",tostring(Message) .."\n \n")
 	end)
 end
-coroutine.wrap(ADAWSS_fake_script)()
-local function AYHEVN_fake_script() -- clear_2.TEST 
-	local script = Instance.new('LocalScript', clear_2)
-
-	local fileName = script.Parent.Parent.Parent.FileName.FileName
-	local scrip = script.Parent.Parent.Parent.scrip.Scrip
-	local btn = script.Parent.Parent.clear
-	
-	btn.MouseButton1Click:Connect(function()
-		local Frame = script.Parent.Parent.Parent.Parent.Parent.ScriptsPage.SavedScripts.ScrollingFrame.frame
-		local newFrame = Frame:Clone()
-		newFrame.Parent = Frame.Parent
-		warn("WORKS")
-	end)
-	
-end
-coroutine.wrap(AYHEVN_fake_script)()
-local function XLAUS_fake_script() -- TextButton_13.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_13)
-
-	local btn = script.Parent.Parent.TextButton
-	
-	local clearW = script.Parent.Parent.Parent.Parent.Parent.clearWindow
-	
-	btn.MouseButton1Click:Connect(function()
-		clearW.Visible = false
-	end)
-end
-coroutine.wrap(XLAUS_fake_script)()
-local function EDBF_fake_script() -- ImageButton_2.LocalScript 
-	local script = Instance.new('LocalScript', ImageButton_2)
-
-	local btn = script.Parent.Parent.ImageButton
-	
-	local clearW = script.Parent.Parent.Parent.Parent.SaveScript
-	
-	btn.MouseButton1Click:Connect(function()
-		clearW.Visible = false
-	end)
-end
-coroutine.wrap(EDBF_fake_script)()
-local function WNFGJNA_fake_script() -- FileName_2.LocalScript 
-	local script = Instance.new('LocalScript', FileName_2)
-
-	
-end
-coroutine.wrap(WNFGJNA_fake_script)()
-local function KBMCS_fake_script() -- Scrip.LocalScript 
-	local script = Instance.new('LocalScript', Scrip)
-
-	
-end
-coroutine.wrap(KBMCS_fake_script)()
+coroutine.wrap(BRIMUE_fake_script)()
