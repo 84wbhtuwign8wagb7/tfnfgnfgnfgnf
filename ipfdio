@@ -1,58 +1,66 @@
+--[[
+	 Gui to Lua Converter
+-- Revamped by:HoIyScript
+--]]
 
+
+
+-- Instances:
 
 local oingnudogbhdr = Instance.new("ScreenGui")
 local OpenKr = Instance.new("ImageLabel")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local openBtn = Instance.new("TextButton")
-local UICorner = Instance.new("UICorner")
 local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
 local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
 
+--[[
+	Properties:
+--]]
 
 oingnudogbhdr.Name = "oingnudogbhdr"
-oingnudogbhdr.Parent = (game:GetService("CoreGui") or gethui())
+oingnudogbhdr.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 oingnudogbhdr.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 OpenKr.Name = "OpenKr"
 OpenKr.Parent = oingnudogbhdr
 OpenKr.Active = true
-OpenKr.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-OpenKr.BackgroundTransparency = 1.000
+OpenKr.BackgroundColor3 = Color3.new(1, 1, 1)
+OpenKr.BackgroundTransparency = 1
 OpenKr.Position = UDim2.new(0, 33, 0, 145)
 OpenKr.Size = UDim2.new(0, 75, 0, 94)
 OpenKr.ZIndex = 999999999
 OpenKr.Image = "rbxassetid://13776988281"
-OpenKr.ImageTransparency = 0.040
+OpenKr.ImageTransparency = 0.03999999910593033
 
 UIAspectRatioConstraint.Parent = OpenKr
-UIAspectRatioConstraint.AspectRatio = 1.149
+UIAspectRatioConstraint.AspectRatio = 1.148936152458191
 
 openBtn.Name = "openBtn"
 openBtn.Parent = OpenKr
-openBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-openBtn.BackgroundTransparency = 1.000
-openBtn.Position = UDim2.new(0, 27, 0, 21)
-openBtn.Size = UDim2.new(0, 53, 0, 51)
+openBtn.BackgroundColor3 = Color3.new(1, 1, 1)
+openBtn.BackgroundTransparency = 1
+openBtn.Position = UDim2.new(0, 20, 0, 15)
+openBtn.Size = UDim2.new(0, 34, 0, 32)
 openBtn.ZIndex = 999999999
 openBtn.Font = Enum.Font.GothamBold
 openBtn.Text = "  "
-openBtn.TextColor3 = Color3.fromRGB(5, 122, 85)
+openBtn.TextColor3 = Color3.new(0.0196078, 0.478431, 0.333333)
 openBtn.TextScaled = true
-openBtn.TextSize = 14.000
+openBtn.TextSize = 14
 openBtn.TextWrapped = true
 
-UICorner.CornerRadius = UDim.new(0, 60)
-UICorner.Parent = openBtn
-
 UIAspectRatioConstraint_2.Parent = openBtn
-UIAspectRatioConstraint_2.AspectRatio = 1.039
+UIAspectRatioConstraint_2.AspectRatio = 1.0392156839370728
 
 UITextSizeConstraint.Parent = openBtn
 UITextSizeConstraint.MaxTextSize = 51
 
--- Scripts:
+--[[
+	 Scripts:
+--]]
 
-local function TFCY_fake_script() -- OpenKr.drag 
+local function HPSOWPI_fake_script() -- OpenKr.drag 
 	local script = Instance.new('LocalScript', OpenKr)
 
 	local UIS = game:GetService('UserInputService')
@@ -90,8 +98,8 @@ local function TFCY_fake_script() -- OpenKr.drag
 		end
 	end)
 end
-coroutine.wrap(TFCY_fake_script)()
-local function JJFIP_fake_script() -- openBtn.openScript 
+coroutine.wrap(HPSOWPI_fake_script)()
+local function DGSOJPY_fake_script() -- openBtn.openScript 
 	local script = Instance.new('LocalScript', openBtn)
 
 	local btn = script.Parent.Parent.openBtn
@@ -99,12 +107,8 @@ local function JJFIP_fake_script() -- openBtn.openScript
 	
 	btn.MouseButton1Click:Connect(function()	
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/lr77world/ir77/main/file1"))()
-		wait(0.001)
+		wait(0.1)
 		openKr:Destroy()
 	end)
 end
-	coroutine.wrap(JJFIP_fake_script)()
-
-
-
-
+coroutine.wrap(DGSOJPY_fake_script)()
