@@ -8,15 +8,10 @@
 -- Instances:
 
 local kr = Instance.new("ScreenGui")
-local OpenKr = Instance.new("ImageLabel")
-local openBtn = Instance.new("TextButton")
-local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
 local MainMenu = Instance.new("ImageLabel")
 local EditorPage = Instance.new("Frame")
 local Editor = Instance.new("Frame")
-local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local TextBox = Instance.new("TextBox")
 local shadow = Instance.new("Frame")
@@ -24,52 +19,52 @@ local shadow2 = Instance.new("Frame")
 local shadow3 = Instance.new("Frame")
 local preview = Instance.new("Frame")
 local TextBox_2 = Instance.new("TextBox")
-local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
 local scroll = Instance.new("Frame")
 local ScrollingFrame_2 = Instance.new("ScrollingFrame")
 local clearF = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
-local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
 local ImageLabel = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
 local clearBtn = Instance.new("TextButton")
-local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
 local executeF = Instance.new("Frame")
 local TextLabel_2 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local ExecuteBtn = Instance.new("TextButton")
 local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
 local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
-local ImageLabel_2 = Instance.new("ImageLabel")
 local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
-local ExecuteBtn = Instance.new("TextButton")
-local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
 local saveF = Instance.new("Frame")
 local TextLabel_3 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
 local ImageLabel_3 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
 local saveBtn = Instance.new("TextButton")
-local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
 local consoleF = Instance.new("Frame")
 local TextLabel_4 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_15 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
 local ImageLabel_4 = Instance.new("ImageLabel")
 local openConsole = Instance.new("TextButton")
-local UIAspectRatioConstraint_16 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_17 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_15 = Instance.new("UIAspectRatioConstraint")
 local HomePage = Instance.new("Frame")
-local UIAspectRatioConstraint_18 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_16 = Instance.new("UIAspectRatioConstraint")
 local Frame = Instance.new("Frame")
 local Frame_2 = Instance.new("Frame")
 local TextLabel_5 = Instance.new("TextLabel")
 local Pattern = Instance.new("ImageLabel")
 local ImageLabel_5 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_17 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_6 = Instance.new("TextLabel")
 local TextLabel_7 = Instance.new("TextLabel")
 local Frame_3 = Instance.new("Frame")
@@ -135,7 +130,7 @@ local Frame_8 = Instance.new("Frame")
 local TextLabel_25 = Instance.new("TextLabel")
 local ImageLabel_20 = Instance.new("ImageLabel")
 local ScriptsPage = Instance.new("Frame")
-local UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_18 = Instance.new("UIAspectRatioConstraint")
 local Frame_9 = Instance.new("Frame")
 local searchframe = Instance.new("Frame")
 local TextBox_3 = Instance.new("TextBox")
@@ -164,349 +159,349 @@ local edit = Instance.new("ImageButton")
 local fav = Instance.new("ImageButton")
 local trigger_6 = Instance.new("TextButton")
 local SettingsPage = Instance.new("Frame")
-local UIAspectRatioConstraint_21 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_31 = Instance.new("TextLabel")
-local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_22 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
 local f1 = Instance.new("Frame")
 local TextLabel_32 = Instance.new("TextLabel")
-local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_23 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_21 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_33 = Instance.new("TextLabel")
-local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_24 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_25 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_22 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_23 = Instance.new("UIAspectRatioConstraint")
 local Frame_11 = Instance.new("Frame")
 local ImageLabel_22 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_26 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_27 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_24 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_25 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_34 = Instance.new("TextLabel")
-local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_28 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_26 = Instance.new("UIAspectRatioConstraint")
 local ToggleBar = Instance.new("TextButton")
 local onImage = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_29 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_27 = Instance.new("UIAspectRatioConstraint")
 local offImage = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_30 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_31 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_28 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_29 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
 local cOE = Instance.new("Frame")
 local TextLabel_35 = Instance.new("TextLabel")
-local UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_32 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_30 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_36 = Instance.new("TextLabel")
-local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_33 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_31 = Instance.new("UIAspectRatioConstraint")
 local Frame_12 = Instance.new("Frame")
 local ImageLabel_23 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_32 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_33 = Instance.new("UIAspectRatioConstraint")
 local UIAspectRatioConstraint_34 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_35 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_36 = Instance.new("UIAspectRatioConstraint")
 local ToggleBar_2 = Instance.new("TextButton")
 local offImage_2 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_37 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_35 = Instance.new("UIAspectRatioConstraint")
 local onImage_2 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_38 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_39 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_15 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_36 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_37 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
 local TextLabel_37 = Instance.new("TextLabel")
-local UITextSizeConstraint_16 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_40 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_15 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_38 = Instance.new("UIAspectRatioConstraint")
 local f3 = Instance.new("Frame")
 local TextLabel_38 = Instance.new("TextLabel")
-local UITextSizeConstraint_17 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_41 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_16 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_39 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_39 = Instance.new("TextLabel")
-local UITextSizeConstraint_18 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_42 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_43 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_17 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_40 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_41 = Instance.new("UIAspectRatioConstraint")
 local Frame_13 = Instance.new("Frame")
 local ImageLabel_24 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_44 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_45 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_42 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_43 = Instance.new("UIAspectRatioConstraint")
 local ToggleBar_3 = Instance.new("TextButton")
 local onImage_3 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_46 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_44 = Instance.new("UIAspectRatioConstraint")
 local offImage_3 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_47 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_48 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_19 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_45 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_46 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_18 = Instance.new("UITextSizeConstraint")
 local f4 = Instance.new("Frame")
 local TextLabel_40 = Instance.new("TextLabel")
-local UITextSizeConstraint_20 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_49 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_19 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_47 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_41 = Instance.new("TextLabel")
-local UITextSizeConstraint_21 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_50 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_51 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_20 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_48 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_49 = Instance.new("UIAspectRatioConstraint")
 local Frame_14 = Instance.new("Frame")
 local ImageLabel_25 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_52 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_53 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_50 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_51 = Instance.new("UIAspectRatioConstraint")
 local ToggleBar_4 = Instance.new("TextButton")
 local onImage_4 = Instance.new("ImageLabel")
 local offImage_4 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_54 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_22 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_52 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_21 = Instance.new("UITextSizeConstraint")
 local shadow2_2 = Instance.new("Frame")
-local UIAspectRatioConstraint_55 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_53 = Instance.new("UIAspectRatioConstraint")
 local f4_2 = Instance.new("Frame")
 local TextLabel_42 = Instance.new("TextLabel")
-local UITextSizeConstraint_23 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_56 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_22 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_54 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_43 = Instance.new("TextLabel")
-local UITextSizeConstraint_24 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_57 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_58 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_23 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_55 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_56 = Instance.new("UIAspectRatioConstraint")
 local Frame_15 = Instance.new("Frame")
 local ImageLabel_26 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_59 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_60 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_57 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_58 = Instance.new("UIAspectRatioConstraint")
 local ToggleBar_5 = Instance.new("TextButton")
 local onImage_5 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_61 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_59 = Instance.new("UIAspectRatioConstraint")
 local offImage_5 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_62 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_63 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_25 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_60 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_61 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_24 = Instance.new("UITextSizeConstraint")
 local f4_3 = Instance.new("Frame")
 local TextLabel_44 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_64 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_26 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_62 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_25 = Instance.new("UITextSizeConstraint")
 local TextLabel_45 = Instance.new("TextLabel")
-local UITextSizeConstraint_27 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_26 = Instance.new("UITextSizeConstraint")
 local Frame_16 = Instance.new("Frame")
 local ImageLabel_27 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_65 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_66 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_63 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_64 = Instance.new("UIAspectRatioConstraint")
 local ToggleBar_6 = Instance.new("TextButton")
 local onImage_6 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_67 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_65 = Instance.new("UIAspectRatioConstraint")
 local offImage_6 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_66 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_67 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_27 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_68 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_69 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_28 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_70 = Instance.new("UIAspectRatioConstraint")
 local Sidebar = Instance.new("Frame")
 local EDITORBTN = Instance.new("Frame")
 local Frame_17 = Instance.new("Frame")
 local ImageLabel_28 = Instance.new("ImageLabel")
 local ImageLabel_29 = Instance.new("ImageLabel")
 local TextLabel_46 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_71 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_29 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_69 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_28 = Instance.new("UITextSizeConstraint")
 local TextButton = Instance.new("TextButton")
-local UIAspectRatioConstraint_72 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_30 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_73 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_70 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_29 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_71 = Instance.new("UIAspectRatioConstraint")
 local HOMEBTN = Instance.new("Frame")
 local Frame_18 = Instance.new("Frame")
 local ImageLabel_30 = Instance.new("ImageLabel")
 local ImageLabel_31 = Instance.new("ImageLabel")
 local TextLabel_47 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_74 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_31 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_72 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_30 = Instance.new("UITextSizeConstraint")
 local TextButton_2 = Instance.new("TextButton")
-local UIAspectRatioConstraint_75 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_32 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_76 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_73 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_31 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_74 = Instance.new("UIAspectRatioConstraint")
 local SCRIPTSBTN = Instance.new("Frame")
 local Frame_19 = Instance.new("Frame")
 local ImageLabel_32 = Instance.new("ImageLabel")
 local ImageLabel_33 = Instance.new("ImageLabel")
 local TextLabel_48 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_77 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_33 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_75 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_32 = Instance.new("UITextSizeConstraint")
 local TextButton_3 = Instance.new("TextButton")
-local UIAspectRatioConstraint_78 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_34 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_79 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_76 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_33 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_77 = Instance.new("UIAspectRatioConstraint")
 local SETTINGSBTN = Instance.new("Frame")
 local Frame_20 = Instance.new("Frame")
 local ImageLabel_34 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_80 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_78 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_35 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_81 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_79 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_49 = Instance.new("TextLabel")
-local UITextSizeConstraint_35 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_34 = Instance.new("UITextSizeConstraint")
 local TextButton_4 = Instance.new("TextButton")
-local UIAspectRatioConstraint_82 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_36 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_83 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_80 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_35 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_81 = Instance.new("UIAspectRatioConstraint")
 local AccFrame = Instance.new("Frame")
 local TextLabel_50 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_84 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_82 = Instance.new("UIAspectRatioConstraint")
 local DName = Instance.new("TextLabel")
 local view = Instance.new("ImageButton")
-local UIAspectRatioConstraint_85 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_83 = Instance.new("UIAspectRatioConstraint")
 local statusImage = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_86 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_84 = Instance.new("UIAspectRatioConstraint")
 local SidebarH = Instance.new("Frame")
-local UIAspectRatioConstraint_87 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_85 = Instance.new("UIAspectRatioConstraint")
 local Topbar = Instance.new("Frame")
 local closeBtn = Instance.new("ImageButton")
-local UIAspectRatioConstraint_88 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_86 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_51 = Instance.new("TextLabel")
 local ImageLabel_36 = Instance.new("ImageLabel")
 local TextLabel_52 = Instance.new("TextLabel")
 local ImageLabel_37 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_89 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_87 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_53 = Instance.new("TextLabel")
 local TextLabel_54 = Instance.new("TextLabel")
 local TopbarH = Instance.new("Frame")
-local UIAspectRatioConstraint_90 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_88 = Instance.new("UIAspectRatioConstraint")
 local WelcomeWindow = Instance.new("Frame")
-local UIAspectRatioConstraint_91 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_89 = Instance.new("UIAspectRatioConstraint")
 local welcomerFrame = Instance.new("Frame")
 local TextLabel_55 = Instance.new("TextLabel")
-local UITextSizeConstraint_37 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_92 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_36 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_90 = Instance.new("UIAspectRatioConstraint")
 local Page2 = Instance.new("Frame")
 local ImageLabel_38 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_93 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_91 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_39 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_94 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_92 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_40 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_95 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_93 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_41 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_96 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_94 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_42 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_97 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_95 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_43 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_98 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_96 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_44 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_99 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_97 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_45 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_100 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_98 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_46 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_101 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_99 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_47 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_102 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_100 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_48 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_103 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_101 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_49 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_104 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_102 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_50 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_105 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_103 = Instance.new("UIAspectRatioConstraint")
 local Frame_21 = Instance.new("Frame")
-local UIAspectRatioConstraint_106 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_104 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_51 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_107 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_105 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_52 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_108 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_106 = Instance.new("UIAspectRatioConstraint")
 local Frame_22 = Instance.new("Frame")
 local TextLabel_56 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_109 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_38 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_107 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_37 = Instance.new("UITextSizeConstraint")
 local TextLabel_57 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_110 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_39 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_108 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_38 = Instance.new("UITextSizeConstraint")
 local TextLabel_58 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_111 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_40 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_109 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_39 = Instance.new("UITextSizeConstraint")
 local TextLabel_59 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_112 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_41 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_110 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_40 = Instance.new("UITextSizeConstraint")
 local TextLabel_60 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_113 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_42 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_111 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_41 = Instance.new("UITextSizeConstraint")
 local TextLabel_61 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_114 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_43 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_112 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_42 = Instance.new("UITextSizeConstraint")
 local TextLabel_62 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_115 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_44 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_113 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_43 = Instance.new("UITextSizeConstraint")
 local TextLabel_63 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_116 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_45 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_114 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_44 = Instance.new("UITextSizeConstraint")
 local TextLabel_64 = Instance.new("TextLabel")
-local UITextSizeConstraint_46 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_45 = Instance.new("UITextSizeConstraint")
 local TextLabel_65 = Instance.new("TextLabel")
-local UITextSizeConstraint_47 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_46 = Instance.new("UITextSizeConstraint")
 local TextLabel_66 = Instance.new("TextLabel")
-local UITextSizeConstraint_48 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_47 = Instance.new("UITextSizeConstraint")
 local TextLabel_67 = Instance.new("TextLabel")
-local UITextSizeConstraint_49 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_48 = Instance.new("UITextSizeConstraint")
 local TextLabel_68 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_117 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_50 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_115 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_49 = Instance.new("UITextSizeConstraint")
 local iagreeFr = Instance.new("Frame")
 local TextLabel_69 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_118 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_51 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_116 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_50 = Instance.new("UITextSizeConstraint")
 local iagree = Instance.new("TextButton")
-local UIAspectRatioConstraint_119 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_52 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_120 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_117 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_51 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_118 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_70 = Instance.new("TextLabel")
-local UITextSizeConstraint_53 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_52 = Instance.new("UITextSizeConstraint")
 local TextLabel_71 = Instance.new("TextLabel")
-local UITextSizeConstraint_54 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_121 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_53 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_119 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_53 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_122 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_123 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_120 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_121 = Instance.new("UIAspectRatioConstraint")
 local ImageLabel_54 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_124 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_122 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_72 = Instance.new("TextLabel")
-local UITextSizeConstraint_55 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_54 = Instance.new("UITextSizeConstraint")
 local TextLabel_73 = Instance.new("TextLabel")
-local UITextSizeConstraint_56 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_125 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_126 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_55 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_123 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_124 = Instance.new("UIAspectRatioConstraint")
 local clearWindow = Instance.new("Frame")
 local clearFrame = Instance.new("Frame")
 local Frame_23 = Instance.new("Frame")
 local TextLabel_74 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_127 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_57 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_125 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_56 = Instance.new("UITextSizeConstraint")
 local clear = Instance.new("TextButton")
-local UIAspectRatioConstraint_128 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_58 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_129 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_126 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_57 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_127 = Instance.new("UIAspectRatioConstraint")
 local Frame_24 = Instance.new("Frame")
 local TextLabel_75 = Instance.new("TextLabel")
-local UITextSizeConstraint_59 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_58 = Instance.new("UITextSizeConstraint")
 local TextButton_5 = Instance.new("TextButton")
+local UIAspectRatioConstraint_128 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_59 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_129 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_76 = Instance.new("TextLabel")
 local UIAspectRatioConstraint_130 = Instance.new("UIAspectRatioConstraint")
 local UITextSizeConstraint_60 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_131 = Instance.new("UIAspectRatioConstraint")
-local TextLabel_76 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_132 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_61 = Instance.new("UITextSizeConstraint")
 local TextLabel_77 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_133 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_62 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_131 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_61 = Instance.new("UITextSizeConstraint")
 local TextLabel_78 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_134 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_63 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_132 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_62 = Instance.new("UITextSizeConstraint")
 local ImageButton = Instance.new("ImageButton")
+local UIAspectRatioConstraint_133 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_134 = Instance.new("UIAspectRatioConstraint")
 local UIAspectRatioConstraint_135 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_136 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_137 = Instance.new("UIAspectRatioConstraint")
 local shadow2_3 = Instance.new("Frame")
-local UIAspectRatioConstraint_138 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_136 = Instance.new("UIAspectRatioConstraint")
 local SaveScript = Instance.new("Frame")
 local clearFrame_2 = Instance.new("Frame")
 local tess = Instance.new("Frame")
 local TextLabel_79 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_139 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_64 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_137 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_63 = Instance.new("UITextSizeConstraint")
 local clear_2 = Instance.new("TextButton")
-local UIAspectRatioConstraint_140 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_65 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_141 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_138 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_64 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_139 = Instance.new("UIAspectRatioConstraint")
 local Frame_25 = Instance.new("Frame")
 local TextLabel_80 = Instance.new("TextLabel")
-local UITextSizeConstraint_66 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_65 = Instance.new("UITextSizeConstraint")
 local TextButton_6 = Instance.new("TextButton")
-local UIAspectRatioConstraint_142 = Instance.new("UIAspectRatioConstraint")
-local UITextSizeConstraint_67 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_143 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_140 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_66 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_141 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_81 = Instance.new("TextLabel")
-local UITextSizeConstraint_68 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_67 = Instance.new("UITextSizeConstraint")
 local ImageButton_2 = Instance.new("ImageButton")
-local UIAspectRatioConstraint_144 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_142 = Instance.new("UIAspectRatioConstraint")
 local FileName = Instance.new("Frame")
 local FileName_2 = Instance.new("TextBox")
 local ImageLabel_55 = Instance.new("ImageLabel")
@@ -516,10 +511,10 @@ local ImageLabel_56 = Instance.new("ImageLabel")
 local errormsg = Instance.new("TextLabel")
 local TextLabel_82 = Instance.new("TextLabel")
 local TextLabel_83 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_145 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_143 = Instance.new("UIAspectRatioConstraint")
 local message = Instance.new("Frame")
 local statusImage1 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_146 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_144 = Instance.new("UIAspectRatioConstraint")
 local msg = Instance.new("TextLabel")
 local TextLabel_84 = Instance.new("TextLabel")
 
@@ -532,41 +527,6 @@ kr.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 kr.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 kr.ResetOnSpawn = false
 
-OpenKr.Name = "OpenKr"
-OpenKr.Parent = kr
-OpenKr.Active = true
-OpenKr.BackgroundColor3 = Color3.new(1, 1, 1)
-OpenKr.BackgroundTransparency = 1
-OpenKr.Position = UDim2.new(0, 33, 0, 145)
-OpenKr.Size = UDim2.new(0, 108, 0, 94)
-OpenKr.Visible = false
-OpenKr.ZIndex = 999999999
-OpenKr.Image = "rbxassetid://13776988281"
-OpenKr.ImageTransparency = 0.03999999910593033
-
-openBtn.Name = "openBtn"
-openBtn.Parent = OpenKr
-openBtn.BackgroundColor3 = Color3.new(1, 1, 1)
-openBtn.BackgroundTransparency = 1
-openBtn.Position = UDim2.new(0, 27, 0, 21)
-openBtn.Size = UDim2.new(0, 53, 0, 51)
-openBtn.ZIndex = 999999999
-openBtn.Font = Enum.Font.GothamBold
-openBtn.Text = "  "
-openBtn.TextColor3 = Color3.new(0.0196078, 0.478431, 0.333333)
-openBtn.TextScaled = true
-openBtn.TextSize = 14
-openBtn.TextWrapped = true
-
-UIAspectRatioConstraint.Parent = openBtn
-UIAspectRatioConstraint.AspectRatio = 1.0392156839370728
-
-UITextSizeConstraint.Parent = openBtn
-UITextSizeConstraint.MaxTextSize = 51
-
-UIAspectRatioConstraint_2.Parent = OpenKr
-UIAspectRatioConstraint_2.AspectRatio = 1.148936152458191
-
 MainMenu.Name = "MainMenu"
 MainMenu.Parent = kr
 MainMenu.Active = true
@@ -575,6 +535,7 @@ MainMenu.BorderSizePixel = 0
 MainMenu.ClipsDescendants = true
 MainMenu.Position = UDim2.new(0.0649629757, 0, 0.0272378698, 0)
 MainMenu.Size = UDim2.new(0, 554, 0, 339)
+MainMenu.Visible = false
 MainMenu.ZIndex = 999999999
 MainMenu.Image = "rbxassetid://13587333691"
 
@@ -593,8 +554,8 @@ Editor.ClipsDescendants = true
 Editor.Position = UDim2.new(0, 30, 0, 8)
 Editor.Size = UDim2.new(0, 397, 0, 241)
 
-UIAspectRatioConstraint_3.Parent = Editor
-UIAspectRatioConstraint_3.AspectRatio = 1.6473028659820557
+UIAspectRatioConstraint.Parent = Editor
+UIAspectRatioConstraint.AspectRatio = 1.6473028659820557
 
 ScrollingFrame.Parent = Editor
 ScrollingFrame.Active = true
@@ -674,11 +635,11 @@ TextBox_2.TextWrapped = true
 TextBox_2.TextXAlignment = Enum.TextXAlignment.Left
 TextBox_2.TextYAlignment = Enum.TextYAlignment.Top
 
-UIAspectRatioConstraint_4.Parent = TextBox_2
-UIAspectRatioConstraint_4.AspectRatio = 0.2935323417186737
+UIAspectRatioConstraint_2.Parent = TextBox_2
+UIAspectRatioConstraint_2.AspectRatio = 0.2935323417186737
 
-UITextSizeConstraint_2.Parent = TextBox_2
-UITextSizeConstraint_2.MaxTextSize = 7
+UITextSizeConstraint.Parent = TextBox_2
+UITextSizeConstraint.MaxTextSize = 7
 
 scroll.Name = "scroll"
 scroll.Parent = preview
@@ -718,11 +679,11 @@ TextLabel.TextScaled = true
 TextLabel.TextSize = 15
 TextLabel.TextWrapped = true
 
-UIAspectRatioConstraint_5.Parent = TextLabel
-UIAspectRatioConstraint_5.AspectRatio = 4.210526466369629
+UIAspectRatioConstraint_3.Parent = TextLabel
+UIAspectRatioConstraint_3.AspectRatio = 4.210526466369629
 
-UITextSizeConstraint_3.Parent = TextLabel
-UITextSizeConstraint_3.MaxTextSize = 15
+UITextSizeConstraint_2.Parent = TextLabel
+UITextSizeConstraint_2.MaxTextSize = 15
 
 ImageLabel.Parent = clearF
 ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -732,8 +693,8 @@ ImageLabel.Size = UDim2.new(0, 18, 0, 17)
 ImageLabel.Image = "rbxassetid://13626122323"
 ImageLabel.ImageColor3 = Color3.new(0.701961, 0.701961, 0.741176)
 
-UIAspectRatioConstraint_6.Parent = ImageLabel
-UIAspectRatioConstraint_6.AspectRatio = 1.058823585510254
+UIAspectRatioConstraint_4.Parent = ImageLabel
+UIAspectRatioConstraint_4.AspectRatio = 1.058823585510254
 
 clearBtn.Name = "clearBtn"
 clearBtn.Parent = clearF
@@ -748,8 +709,8 @@ clearBtn.TextScaled = true
 clearBtn.TextSize = 14
 clearBtn.TextWrapped = true
 
-UIAspectRatioConstraint_7.Parent = clearF
-UIAspectRatioConstraint_7.AspectRatio = 3.186046600341797
+UIAspectRatioConstraint_5.Parent = clearF
+UIAspectRatioConstraint_5.AspectRatio = 3.186046600341797
 
 executeF.Name = "executeF"
 executeF.Parent = ScrollingFrame_2
@@ -769,11 +730,11 @@ TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 15
 TextLabel_2.TextWrapped = true
 
-UIAspectRatioConstraint_8.Parent = TextLabel_2
-UIAspectRatioConstraint_8.AspectRatio = 4
+UIAspectRatioConstraint_6.Parent = TextLabel_2
+UIAspectRatioConstraint_6.AspectRatio = 4
 
-UITextSizeConstraint_4.Parent = TextLabel_2
-UITextSizeConstraint_4.MaxTextSize = 15
+UITextSizeConstraint_3.Parent = TextLabel_2
+UITextSizeConstraint_3.MaxTextSize = 15
 
 ImageLabel_2.Parent = executeF
 ImageLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -783,8 +744,8 @@ ImageLabel_2.Size = UDim2.new(0, 27, 0, 28)
 ImageLabel_2.Image = "rbxassetid://13625975635"
 ImageLabel_2.ImageColor3 = Color3.new(0.564706, 0.564706, 0.596078)
 
-UIAspectRatioConstraint_9.Parent = ImageLabel_2
-UIAspectRatioConstraint_9.AspectRatio = 0.9642857313156128
+UIAspectRatioConstraint_7.Parent = ImageLabel_2
+UIAspectRatioConstraint_7.AspectRatio = 0.9642857313156128
 
 ExecuteBtn.Name = "ExecuteBtn"
 ExecuteBtn.Parent = executeF
@@ -799,14 +760,14 @@ ExecuteBtn.TextScaled = true
 ExecuteBtn.TextSize = 14
 ExecuteBtn.TextWrapped = true
 
-UIAspectRatioConstraint_10.Parent = ExecuteBtn
-UIAspectRatioConstraint_10.AspectRatio = 3.8108108043670654
+UIAspectRatioConstraint_8.Parent = ExecuteBtn
+UIAspectRatioConstraint_8.AspectRatio = 3.8108108043670654
 
-UITextSizeConstraint_5.Parent = ExecuteBtn
-UITextSizeConstraint_5.MaxTextSize = 14
+UITextSizeConstraint_4.Parent = ExecuteBtn
+UITextSizeConstraint_4.MaxTextSize = 14
 
-UIAspectRatioConstraint_11.Parent = executeF
-UIAspectRatioConstraint_11.AspectRatio = 3.302325487136841
+UIAspectRatioConstraint_9.Parent = executeF
+UIAspectRatioConstraint_9.AspectRatio = 3.302325487136841
 
 saveF.Name = "saveF"
 saveF.Parent = ScrollingFrame_2
@@ -826,11 +787,11 @@ TextLabel_3.TextColor3 = Color3.new(1, 1, 1)
 TextLabel_3.TextSize = 14
 TextLabel_3.TextWrapped = true
 
-UIAspectRatioConstraint_12.Parent = TextLabel_3
-UIAspectRatioConstraint_12.AspectRatio = 4.210526466369629
+UIAspectRatioConstraint_10.Parent = TextLabel_3
+UIAspectRatioConstraint_10.AspectRatio = 4.210526466369629
 
-UITextSizeConstraint_6.Parent = TextLabel_3
-UITextSizeConstraint_6.MaxTextSize = 15
+UITextSizeConstraint_5.Parent = TextLabel_3
+UITextSizeConstraint_5.MaxTextSize = 15
 
 ImageLabel_3.Parent = saveF
 ImageLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -840,8 +801,8 @@ ImageLabel_3.Size = UDim2.new(0, 18, 0, 17)
 ImageLabel_3.Image = "rbxassetid://13626156799"
 ImageLabel_3.ImageColor3 = Color3.new(0.701961, 0.701961, 0.741176)
 
-UIAspectRatioConstraint_13.Parent = ImageLabel_3
-UIAspectRatioConstraint_13.AspectRatio = 1.058823585510254
+UIAspectRatioConstraint_11.Parent = ImageLabel_3
+UIAspectRatioConstraint_11.AspectRatio = 1.058823585510254
 
 saveBtn.Name = "saveBtn"
 saveBtn.Parent = saveF
@@ -856,8 +817,8 @@ saveBtn.TextScaled = true
 saveBtn.TextSize = 14
 saveBtn.TextWrapped = true
 
-UIAspectRatioConstraint_14.Parent = saveF
-UIAspectRatioConstraint_14.AspectRatio = 3.186046600341797
+UIAspectRatioConstraint_12.Parent = saveF
+UIAspectRatioConstraint_12.AspectRatio = 3.186046600341797
 
 consoleF.Name = "consoleF"
 consoleF.Parent = ScrollingFrame_2
@@ -877,11 +838,11 @@ TextLabel_4.TextColor3 = Color3.new(1, 1, 1)
 TextLabel_4.TextSize = 14
 TextLabel_4.TextWrapped = true
 
-UIAspectRatioConstraint_15.Parent = TextLabel_4
-UIAspectRatioConstraint_15.AspectRatio = 4.210526466369629
+UIAspectRatioConstraint_13.Parent = TextLabel_4
+UIAspectRatioConstraint_13.AspectRatio = 4.210526466369629
 
-UITextSizeConstraint_7.Parent = TextLabel_4
-UITextSizeConstraint_7.MaxTextSize = 15
+UITextSizeConstraint_6.Parent = TextLabel_4
+UITextSizeConstraint_6.MaxTextSize = 15
 
 ImageLabel_4.Parent = consoleF
 ImageLabel_4.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -904,11 +865,11 @@ openConsole.TextScaled = true
 openConsole.TextSize = 14
 openConsole.TextWrapped = true
 
-UIAspectRatioConstraint_16.Parent = consoleF
-UIAspectRatioConstraint_16.AspectRatio = 3.186046600341797
+UIAspectRatioConstraint_14.Parent = consoleF
+UIAspectRatioConstraint_14.AspectRatio = 3.186046600341797
 
-UIAspectRatioConstraint_17.Parent = EditorPage
-UIAspectRatioConstraint_17.AspectRatio = 1.5224913358688354
+UIAspectRatioConstraint_15.Parent = EditorPage
+UIAspectRatioConstraint_15.AspectRatio = 1.5224913358688354
 
 HomePage.Name = "HomePage"
 HomePage.Parent = MainMenu
@@ -918,8 +879,8 @@ HomePage.Position = UDim2.new(0, 112, 0, 41)
 HomePage.Size = UDim2.new(0, 445, 0, 295)
 HomePage.Visible = false
 
-UIAspectRatioConstraint_18.Parent = HomePage
-UIAspectRatioConstraint_18.AspectRatio = 1.4932886362075806
+UIAspectRatioConstraint_16.Parent = HomePage
+UIAspectRatioConstraint_16.AspectRatio = 1.4932886362075806
 
 Frame.Parent = HomePage
 Frame.BackgroundColor3 = Color3.new(0.101961, 0.105882, 0.12549)
@@ -967,8 +928,8 @@ ImageLabel_5.Image = "http://www.roblox.com/asset/?id=6034983856"
 ImageLabel_5.ImageColor3 = Color3.new(0.839216, 0.847059, 0.886275)
 ImageLabel_5.ScaleType = Enum.ScaleType.Fit
 
-UIAspectRatioConstraint_19.Parent = ImageLabel_5
-UIAspectRatioConstraint_19.AspectRatio = 1.9375
+UIAspectRatioConstraint_17.Parent = ImageLabel_5
+UIAspectRatioConstraint_17.AspectRatio = 1.9375
 
 TextLabel_6.Parent = Frame
 TextLabel_6.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -1600,8 +1561,8 @@ ScriptsPage.BorderColor3 = Color3.new(0.0901961, 0.0941176, 0.105882)
 ScriptsPage.Position = UDim2.new(0, 112, 0, 41)
 ScriptsPage.Size = UDim2.new(0, 445, 0, 295)
 
-UIAspectRatioConstraint_20.Parent = ScriptsPage
-UIAspectRatioConstraint_20.AspectRatio = 1.4932886362075806
+UIAspectRatioConstraint_18.Parent = ScriptsPage
+UIAspectRatioConstraint_18.AspectRatio = 1.4932886362075806
 
 Frame_9.Parent = ScriptsPage
 Frame_9.BackgroundColor3 = Color3.new(0.101961, 0.105882, 0.12549)
@@ -1853,8 +1814,8 @@ SettingsPage.Position = UDim2.new(0, 112, 0, 41)
 SettingsPage.Size = UDim2.new(0, 440, 0, 295)
 SettingsPage.Visible = false
 
-UIAspectRatioConstraint_21.Parent = SettingsPage
-UIAspectRatioConstraint_21.AspectRatio = 1.4932886362075806
+UIAspectRatioConstraint_19.Parent = SettingsPage
+UIAspectRatioConstraint_19.AspectRatio = 1.4932886362075806
 
 TextLabel_31.Parent = SettingsPage
 TextLabel_31.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -1867,11 +1828,11 @@ TextLabel_31.TextColor3 = Color3.new(0.890196, 0.890196, 0.890196)
 TextLabel_31.TextSize = 15
 TextLabel_31.TextWrapped = true
 
-UITextSizeConstraint_8.Parent = TextLabel_31
-UITextSizeConstraint_8.MaxTextSize = 15
+UITextSizeConstraint_7.Parent = TextLabel_31
+UITextSizeConstraint_7.MaxTextSize = 15
 
-UIAspectRatioConstraint_22.Parent = TextLabel_31
-UIAspectRatioConstraint_22.AspectRatio = 11.100000381469727
+UIAspectRatioConstraint_20.Parent = TextLabel_31
+UIAspectRatioConstraint_20.AspectRatio = 11.100000381469727
 
 f1.Name = "f1"
 f1.Parent = SettingsPage
@@ -1891,11 +1852,11 @@ TextLabel_32.TextScaled = true
 TextLabel_32.TextSize = 17
 TextLabel_32.TextWrapped = true
 
-UITextSizeConstraint_9.Parent = TextLabel_32
-UITextSizeConstraint_9.MaxTextSize = 17
+UITextSizeConstraint_8.Parent = TextLabel_32
+UITextSizeConstraint_8.MaxTextSize = 17
 
-UIAspectRatioConstraint_23.Parent = TextLabel_32
-UIAspectRatioConstraint_23.AspectRatio = 10.736842155456543
+UIAspectRatioConstraint_21.Parent = TextLabel_32
+UIAspectRatioConstraint_21.AspectRatio = 10.736842155456543
 
 TextLabel_33.Parent = f1
 TextLabel_33.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -1909,14 +1870,14 @@ TextLabel_33.TextScaled = true
 TextLabel_33.TextSize = 12
 TextLabel_33.TextWrapped = true
 
-UITextSizeConstraint_10.Parent = TextLabel_33
-UITextSizeConstraint_10.MaxTextSize = 12
+UITextSizeConstraint_9.Parent = TextLabel_33
+UITextSizeConstraint_9.MaxTextSize = 12
 
-UIAspectRatioConstraint_24.Parent = TextLabel_33
-UIAspectRatioConstraint_24.AspectRatio = 22.076923370361328
+UIAspectRatioConstraint_22.Parent = TextLabel_33
+UIAspectRatioConstraint_22.AspectRatio = 22.076923370361328
 
-UIAspectRatioConstraint_25.Parent = f1
-UIAspectRatioConstraint_25.AspectRatio = 9.387755393981934
+UIAspectRatioConstraint_23.Parent = f1
+UIAspectRatioConstraint_23.AspectRatio = 9.387755393981934
 
 Frame_11.Parent = f1
 Frame_11.BackgroundColor3 = Color3.new(0.176471, 0.176471, 0.2)
@@ -1930,11 +1891,11 @@ ImageLabel_22.Position = UDim2.new(0, 3, 0, 3)
 ImageLabel_22.Size = UDim2.new(0, 26, 0, 25)
 ImageLabel_22.Image = "http://www.roblox.com/asset/?id=6026681578"
 
-UIAspectRatioConstraint_26.Parent = ImageLabel_22
-UIAspectRatioConstraint_26.AspectRatio = 1.0399999618530273
+UIAspectRatioConstraint_24.Parent = ImageLabel_22
+UIAspectRatioConstraint_24.AspectRatio = 1.0399999618530273
 
-UIAspectRatioConstraint_27.Parent = Frame_11
-UIAspectRatioConstraint_27.AspectRatio = 1.0625
+UIAspectRatioConstraint_25.Parent = Frame_11
+UIAspectRatioConstraint_25.AspectRatio = 1.0625
 
 TextLabel_34.Parent = f1
 TextLabel_34.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -1948,11 +1909,11 @@ TextLabel_34.TextScaled = true
 TextLabel_34.TextSize = 12
 TextLabel_34.TextWrapped = true
 
-UITextSizeConstraint_11.Parent = TextLabel_34
-UITextSizeConstraint_11.MaxTextSize = 12
+UITextSizeConstraint_10.Parent = TextLabel_34
+UITextSizeConstraint_10.MaxTextSize = 12
 
-UIAspectRatioConstraint_28.Parent = TextLabel_34
-UIAspectRatioConstraint_28.AspectRatio = 22.076923370361328
+UIAspectRatioConstraint_26.Parent = TextLabel_34
+UIAspectRatioConstraint_26.AspectRatio = 22.076923370361328
 
 ToggleBar.Name = "ToggleBar"
 ToggleBar.Parent = f1
@@ -1977,8 +1938,8 @@ onImage.Visible = false
 onImage.Image = "http://www.roblox.com/asset/?id=6031068430"
 onImage.ImageColor3 = Color3.new(0.027451, 0.670588, 0.466667)
 
-UIAspectRatioConstraint_29.Parent = onImage
-UIAspectRatioConstraint_29.AspectRatio = 1.0526316165924072
+UIAspectRatioConstraint_27.Parent = onImage
+UIAspectRatioConstraint_27.AspectRatio = 1.0526316165924072
 
 offImage.Name = "offImage"
 offImage.Parent = ToggleBar
@@ -1989,14 +1950,14 @@ offImage.Size = UDim2.new(0, 40, 0, 38)
 offImage.Image = "http://www.roblox.com/asset/?id=6031068429"
 offImage.ImageColor3 = Color3.new(0.12549, 0.133333, 0.156863)
 
-UIAspectRatioConstraint_30.Parent = offImage
-UIAspectRatioConstraint_30.AspectRatio = 1.0526316165924072
+UIAspectRatioConstraint_28.Parent = offImage
+UIAspectRatioConstraint_28.AspectRatio = 1.0526316165924072
 
-UIAspectRatioConstraint_31.Parent = ToggleBar
-UIAspectRatioConstraint_31.AspectRatio = 2.767441749572754
+UIAspectRatioConstraint_29.Parent = ToggleBar
+UIAspectRatioConstraint_29.AspectRatio = 2.767441749572754
 
-UITextSizeConstraint_12.Parent = ToggleBar
-UITextSizeConstraint_12.MaxTextSize = 14
+UITextSizeConstraint_11.Parent = ToggleBar
+UITextSizeConstraint_11.MaxTextSize = 14
 
 cOE.Name = "cOE"
 cOE.Parent = SettingsPage
@@ -2017,11 +1978,11 @@ TextLabel_35.TextScaled = true
 TextLabel_35.TextSize = 17
 TextLabel_35.TextWrapped = true
 
-UITextSizeConstraint_13.Parent = TextLabel_35
-UITextSizeConstraint_13.MaxTextSize = 17
+UITextSizeConstraint_12.Parent = TextLabel_35
+UITextSizeConstraint_12.MaxTextSize = 17
 
-UIAspectRatioConstraint_32.Parent = TextLabel_35
-UIAspectRatioConstraint_32.AspectRatio = 6.714285850524902
+UIAspectRatioConstraint_30.Parent = TextLabel_35
+UIAspectRatioConstraint_30.AspectRatio = 6.714285850524902
 
 TextLabel_36.Parent = cOE
 TextLabel_36.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -2035,11 +1996,11 @@ TextLabel_36.TextScaled = true
 TextLabel_36.TextSize = 12
 TextLabel_36.TextWrapped = true
 
-UITextSizeConstraint_14.Parent = TextLabel_36
-UITextSizeConstraint_14.MaxTextSize = 12
+UITextSizeConstraint_13.Parent = TextLabel_36
+UITextSizeConstraint_13.MaxTextSize = 12
 
-UIAspectRatioConstraint_33.Parent = TextLabel_36
-UIAspectRatioConstraint_33.AspectRatio = 29.846153259277344
+UIAspectRatioConstraint_31.Parent = TextLabel_36
+UIAspectRatioConstraint_31.AspectRatio = 29.846153259277344
 
 Frame_12.Parent = cOE
 Frame_12.BackgroundColor3 = Color3.new(0.176471, 0.176471, 0.2)
@@ -2053,13 +2014,13 @@ ImageLabel_23.Position = UDim2.new(0.10712029, 0, 0.0707330704, 0)
 ImageLabel_23.Size = UDim2.new(0, 26, 0, 26)
 ImageLabel_23.Image = "http://www.roblox.com/asset/?id=6023426928"
 
-UIAspectRatioConstraint_34.Parent = ImageLabel_23
+UIAspectRatioConstraint_32.Parent = ImageLabel_23
 
-UIAspectRatioConstraint_35.Parent = Frame_12
-UIAspectRatioConstraint_35.AspectRatio = 1.0625
+UIAspectRatioConstraint_33.Parent = Frame_12
+UIAspectRatioConstraint_33.AspectRatio = 1.0625
 
-UIAspectRatioConstraint_36.Parent = cOE
-UIAspectRatioConstraint_36.AspectRatio = 9.199999809265137
+UIAspectRatioConstraint_34.Parent = cOE
+UIAspectRatioConstraint_34.AspectRatio = 9.199999809265137
 
 ToggleBar_2.Name = "ToggleBar"
 ToggleBar_2.Parent = cOE
@@ -2083,8 +2044,8 @@ offImage_2.Size = UDim2.new(0, 40, 0, 38)
 offImage_2.Image = "http://www.roblox.com/asset/?id=6031068429"
 offImage_2.ImageColor3 = Color3.new(0.12549, 0.133333, 0.156863)
 
-UIAspectRatioConstraint_37.Parent = offImage_2
-UIAspectRatioConstraint_37.AspectRatio = 1.0526316165924072
+UIAspectRatioConstraint_35.Parent = offImage_2
+UIAspectRatioConstraint_35.AspectRatio = 1.0526316165924072
 
 onImage_2.Name = "onImage"
 onImage_2.Parent = ToggleBar_2
@@ -2096,14 +2057,14 @@ onImage_2.Visible = false
 onImage_2.Image = "http://www.roblox.com/asset/?id=6031068430"
 onImage_2.ImageColor3 = Color3.new(0.027451, 0.670588, 0.466667)
 
-UIAspectRatioConstraint_38.Parent = onImage_2
-UIAspectRatioConstraint_38.AspectRatio = 1.0526316165924072
+UIAspectRatioConstraint_36.Parent = onImage_2
+UIAspectRatioConstraint_36.AspectRatio = 1.0526316165924072
 
-UIAspectRatioConstraint_39.Parent = ToggleBar_2
-UIAspectRatioConstraint_39.AspectRatio = 2.767441749572754
+UIAspectRatioConstraint_37.Parent = ToggleBar_2
+UIAspectRatioConstraint_37.AspectRatio = 2.767441749572754
 
-UITextSizeConstraint_15.Parent = ToggleBar_2
-UITextSizeConstraint_15.MaxTextSize = 14
+UITextSizeConstraint_14.Parent = ToggleBar_2
+UITextSizeConstraint_14.MaxTextSize = 14
 
 TextLabel_37.Parent = cOE
 TextLabel_37.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -2117,11 +2078,11 @@ TextLabel_37.TextScaled = true
 TextLabel_37.TextSize = 12
 TextLabel_37.TextWrapped = true
 
-UITextSizeConstraint_16.Parent = TextLabel_37
-UITextSizeConstraint_16.MaxTextSize = 12
+UITextSizeConstraint_15.Parent = TextLabel_37
+UITextSizeConstraint_15.MaxTextSize = 12
 
-UIAspectRatioConstraint_40.Parent = TextLabel_37
-UIAspectRatioConstraint_40.AspectRatio = 29.846153259277344
+UIAspectRatioConstraint_38.Parent = TextLabel_37
+UIAspectRatioConstraint_38.AspectRatio = 29.846153259277344
 
 f3.Name = "f3"
 f3.Parent = SettingsPage
@@ -2142,11 +2103,11 @@ TextLabel_38.TextScaled = true
 TextLabel_38.TextSize = 17
 TextLabel_38.TextWrapped = true
 
-UITextSizeConstraint_17.Parent = TextLabel_38
-UITextSizeConstraint_17.MaxTextSize = 17
+UITextSizeConstraint_16.Parent = TextLabel_38
+UITextSizeConstraint_16.MaxTextSize = 17
 
-UIAspectRatioConstraint_41.Parent = TextLabel_38
-UIAspectRatioConstraint_41.AspectRatio = 7.681818008422852
+UIAspectRatioConstraint_39.Parent = TextLabel_38
+UIAspectRatioConstraint_39.AspectRatio = 7.681818008422852
 
 TextLabel_39.Parent = f3
 TextLabel_39.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -2160,14 +2121,14 @@ TextLabel_39.TextScaled = true
 TextLabel_39.TextSize = 12
 TextLabel_39.TextWrapped = true
 
-UITextSizeConstraint_18.Parent = TextLabel_39
-UITextSizeConstraint_18.MaxTextSize = 12
+UITextSizeConstraint_17.Parent = TextLabel_39
+UITextSizeConstraint_17.MaxTextSize = 12
 
-UIAspectRatioConstraint_42.Parent = TextLabel_39
-UIAspectRatioConstraint_42.AspectRatio = 32.07692337036133
+UIAspectRatioConstraint_40.Parent = TextLabel_39
+UIAspectRatioConstraint_40.AspectRatio = 32.07692337036133
 
-UIAspectRatioConstraint_43.Parent = f3
-UIAspectRatioConstraint_43.AspectRatio = 9.199999809265137
+UIAspectRatioConstraint_41.Parent = f3
+UIAspectRatioConstraint_41.AspectRatio = 9.199999809265137
 
 Frame_13.Parent = f3
 Frame_13.BackgroundColor3 = Color3.new(0.176471, 0.176471, 0.2)
@@ -2181,11 +2142,11 @@ ImageLabel_24.Position = UDim2.new(0, 4, 0, 4)
 ImageLabel_24.Size = UDim2.new(0, 25, 0, 24)
 ImageLabel_24.Image = "rbxassetid://13776610093"
 
-UIAspectRatioConstraint_44.Parent = ImageLabel_24
-UIAspectRatioConstraint_44.AspectRatio = 1.0416666269302368
+UIAspectRatioConstraint_42.Parent = ImageLabel_24
+UIAspectRatioConstraint_42.AspectRatio = 1.0416666269302368
 
-UIAspectRatioConstraint_45.Parent = Frame_13
-UIAspectRatioConstraint_45.AspectRatio = 1.0625
+UIAspectRatioConstraint_43.Parent = Frame_13
+UIAspectRatioConstraint_43.AspectRatio = 1.0625
 
 ToggleBar_3.Name = "ToggleBar"
 ToggleBar_3.Parent = f3
@@ -2210,8 +2171,8 @@ onImage_3.Visible = false
 onImage_3.Image = "http://www.roblox.com/asset/?id=6031068430"
 onImage_3.ImageColor3 = Color3.new(0.027451, 0.670588, 0.466667)
 
-UIAspectRatioConstraint_46.Parent = onImage_3
-UIAspectRatioConstraint_46.AspectRatio = 1.0526316165924072
+UIAspectRatioConstraint_44.Parent = onImage_3
+UIAspectRatioConstraint_44.AspectRatio = 1.0526316165924072
 
 offImage_3.Name = "offImage"
 offImage_3.Parent = ToggleBar_3
@@ -2222,14 +2183,14 @@ offImage_3.Size = UDim2.new(0, 40, 0, 38)
 offImage_3.Image = "http://www.roblox.com/asset/?id=6031068429"
 offImage_3.ImageColor3 = Color3.new(0.12549, 0.133333, 0.156863)
 
-UIAspectRatioConstraint_47.Parent = offImage_3
-UIAspectRatioConstraint_47.AspectRatio = 1.0526316165924072
+UIAspectRatioConstraint_45.Parent = offImage_3
+UIAspectRatioConstraint_45.AspectRatio = 1.0526316165924072
 
-UIAspectRatioConstraint_48.Parent = ToggleBar_3
-UIAspectRatioConstraint_48.AspectRatio = 2.767441749572754
+UIAspectRatioConstraint_46.Parent = ToggleBar_3
+UIAspectRatioConstraint_46.AspectRatio = 2.767441749572754
 
-UITextSizeConstraint_19.Parent = ToggleBar_3
-UITextSizeConstraint_19.MaxTextSize = 14
+UITextSizeConstraint_18.Parent = ToggleBar_3
+UITextSizeConstraint_18.MaxTextSize = 14
 
 f4.Name = "f4"
 f4.Parent = SettingsPage
@@ -2250,11 +2211,11 @@ TextLabel_40.TextScaled = true
 TextLabel_40.TextSize = 17
 TextLabel_40.TextWrapped = true
 
-UITextSizeConstraint_20.Parent = TextLabel_40
-UITextSizeConstraint_20.MaxTextSize = 17
+UITextSizeConstraint_19.Parent = TextLabel_40
+UITextSizeConstraint_19.MaxTextSize = 17
 
-UIAspectRatioConstraint_49.Parent = TextLabel_40
-UIAspectRatioConstraint_49.AspectRatio = 3.1363637447357178
+UIAspectRatioConstraint_47.Parent = TextLabel_40
+UIAspectRatioConstraint_47.AspectRatio = 3.1363637447357178
 
 TextLabel_41.Parent = f4
 TextLabel_41.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -2268,14 +2229,14 @@ TextLabel_41.TextScaled = true
 TextLabel_41.TextSize = 12
 TextLabel_41.TextWrapped = true
 
-UITextSizeConstraint_21.Parent = TextLabel_41
-UITextSizeConstraint_21.MaxTextSize = 12
+UITextSizeConstraint_20.Parent = TextLabel_41
+UITextSizeConstraint_20.MaxTextSize = 12
 
-UIAspectRatioConstraint_50.Parent = TextLabel_41
-UIAspectRatioConstraint_50.AspectRatio = 25.615385055541992
+UIAspectRatioConstraint_48.Parent = TextLabel_41
+UIAspectRatioConstraint_48.AspectRatio = 25.615385055541992
 
-UIAspectRatioConstraint_51.Parent = f4
-UIAspectRatioConstraint_51.AspectRatio = 9.199999809265137
+UIAspectRatioConstraint_49.Parent = f4
+UIAspectRatioConstraint_49.AspectRatio = 9.199999809265137
 
 Frame_14.Parent = f4
 Frame_14.BackgroundColor3 = Color3.new(0.176471, 0.176471, 0.2)
@@ -2289,11 +2250,11 @@ ImageLabel_25.Position = UDim2.new(0, 4, 0, 3)
 ImageLabel_25.Size = UDim2.new(0, 24, 0, 23)
 ImageLabel_25.Image = "http://www.roblox.com/asset/?id=6034684930"
 
-UIAspectRatioConstraint_52.Parent = ImageLabel_25
-UIAspectRatioConstraint_52.AspectRatio = 1.04347825050354
+UIAspectRatioConstraint_50.Parent = ImageLabel_25
+UIAspectRatioConstraint_50.AspectRatio = 1.04347825050354
 
-UIAspectRatioConstraint_53.Parent = Frame_14
-UIAspectRatioConstraint_53.AspectRatio = 1.0625
+UIAspectRatioConstraint_51.Parent = Frame_14
+UIAspectRatioConstraint_51.AspectRatio = 1.0625
 
 ToggleBar_4.Name = "ToggleBar"
 ToggleBar_4.Parent = f4
@@ -2326,11 +2287,11 @@ offImage_4.Image = "http://www.roblox.com/asset/?id=6031068429"
 offImage_4.ImageColor3 = Color3.new(0.12549, 0.133333, 0.156863)
 offImage_4.ImageTransparency = 1
 
-UIAspectRatioConstraint_54.Parent = ToggleBar_4
-UIAspectRatioConstraint_54.AspectRatio = 2.767441749572754
+UIAspectRatioConstraint_52.Parent = ToggleBar_4
+UIAspectRatioConstraint_52.AspectRatio = 2.767441749572754
 
-UITextSizeConstraint_22.Parent = ToggleBar_4
-UITextSizeConstraint_22.MaxTextSize = 14
+UITextSizeConstraint_21.Parent = ToggleBar_4
+UITextSizeConstraint_21.MaxTextSize = 14
 
 shadow2_2.Name = "shadow2"
 shadow2_2.Parent = SettingsPage
@@ -2339,8 +2300,8 @@ shadow2_2.Position = UDim2.new(0, 25, 0, -4)
 shadow2_2.Size = UDim2.new(0, 401, 0, 35)
 shadow2_2.ZIndex = 2
 
-UIAspectRatioConstraint_55.Parent = shadow2_2
-UIAspectRatioConstraint_55.AspectRatio = 11.45714282989502
+UIAspectRatioConstraint_53.Parent = shadow2_2
+UIAspectRatioConstraint_53.AspectRatio = 11.45714282989502
 
 f4_2.Name = "f4"
 f4_2.Parent = SettingsPage
@@ -2361,11 +2322,11 @@ TextLabel_42.TextScaled = true
 TextLabel_42.TextSize = 17
 TextLabel_42.TextWrapped = true
 
-UITextSizeConstraint_23.Parent = TextLabel_42
-UITextSizeConstraint_23.MaxTextSize = 17
+UITextSizeConstraint_22.Parent = TextLabel_42
+UITextSizeConstraint_22.MaxTextSize = 17
 
-UIAspectRatioConstraint_56.Parent = TextLabel_42
-UIAspectRatioConstraint_56.AspectRatio = 3.1363637447357178
+UIAspectRatioConstraint_54.Parent = TextLabel_42
+UIAspectRatioConstraint_54.AspectRatio = 3.1363637447357178
 
 TextLabel_43.Parent = f4_2
 TextLabel_43.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -2379,14 +2340,14 @@ TextLabel_43.TextScaled = true
 TextLabel_43.TextSize = 12
 TextLabel_43.TextWrapped = true
 
-UITextSizeConstraint_24.Parent = TextLabel_43
-UITextSizeConstraint_24.MaxTextSize = 12
+UITextSizeConstraint_23.Parent = TextLabel_43
+UITextSizeConstraint_23.MaxTextSize = 12
 
-UIAspectRatioConstraint_57.Parent = TextLabel_43
-UIAspectRatioConstraint_57.AspectRatio = 25.615385055541992
+UIAspectRatioConstraint_55.Parent = TextLabel_43
+UIAspectRatioConstraint_55.AspectRatio = 25.615385055541992
 
-UIAspectRatioConstraint_58.Parent = f4_2
-UIAspectRatioConstraint_58.AspectRatio = 9.199999809265137
+UIAspectRatioConstraint_56.Parent = f4_2
+UIAspectRatioConstraint_56.AspectRatio = 9.199999809265137
 
 Frame_15.Parent = f4_2
 Frame_15.BackgroundColor3 = Color3.new(0.176471, 0.176471, 0.2)
@@ -2400,11 +2361,11 @@ ImageLabel_26.Position = UDim2.new(0, 4, 0, 3)
 ImageLabel_26.Size = UDim2.new(0, 24, 0, 23)
 ImageLabel_26.Image = "http://www.roblox.com/asset/?id=6034684930"
 
-UIAspectRatioConstraint_59.Parent = ImageLabel_26
-UIAspectRatioConstraint_59.AspectRatio = 1.04347825050354
+UIAspectRatioConstraint_57.Parent = ImageLabel_26
+UIAspectRatioConstraint_57.AspectRatio = 1.04347825050354
 
-UIAspectRatioConstraint_60.Parent = Frame_15
-UIAspectRatioConstraint_60.AspectRatio = 1.0625
+UIAspectRatioConstraint_58.Parent = Frame_15
+UIAspectRatioConstraint_58.AspectRatio = 1.0625
 
 ToggleBar_5.Name = "ToggleBar"
 ToggleBar_5.Parent = f4_2
@@ -2429,8 +2390,8 @@ onImage_5.Visible = false
 onImage_5.Image = "http://www.roblox.com/asset/?id=6031068430"
 onImage_5.ImageColor3 = Color3.new(0.027451, 0.670588, 0.466667)
 
-UIAspectRatioConstraint_61.Parent = onImage_5
-UIAspectRatioConstraint_61.AspectRatio = 1.0526316165924072
+UIAspectRatioConstraint_59.Parent = onImage_5
+UIAspectRatioConstraint_59.AspectRatio = 1.0526316165924072
 
 offImage_5.Name = "offImage"
 offImage_5.Parent = ToggleBar_5
@@ -2441,14 +2402,14 @@ offImage_5.Size = UDim2.new(0, 40, 0, 38)
 offImage_5.Image = "http://www.roblox.com/asset/?id=6031068429"
 offImage_5.ImageColor3 = Color3.new(0.12549, 0.133333, 0.156863)
 
-UIAspectRatioConstraint_62.Parent = offImage_5
-UIAspectRatioConstraint_62.AspectRatio = 1.0526316165924072
+UIAspectRatioConstraint_60.Parent = offImage_5
+UIAspectRatioConstraint_60.AspectRatio = 1.0526316165924072
 
-UIAspectRatioConstraint_63.Parent = ToggleBar_5
-UIAspectRatioConstraint_63.AspectRatio = 2.767441749572754
+UIAspectRatioConstraint_61.Parent = ToggleBar_5
+UIAspectRatioConstraint_61.AspectRatio = 2.767441749572754
 
-UITextSizeConstraint_25.Parent = ToggleBar_5
-UITextSizeConstraint_25.MaxTextSize = 14
+UITextSizeConstraint_24.Parent = ToggleBar_5
+UITextSizeConstraint_24.MaxTextSize = 14
 
 f4_3.Name = "f4"
 f4_3.Parent = SettingsPage
@@ -2469,11 +2430,11 @@ TextLabel_44.TextScaled = true
 TextLabel_44.TextSize = 17
 TextLabel_44.TextWrapped = true
 
-UIAspectRatioConstraint_64.Parent = TextLabel_44
-UIAspectRatioConstraint_64.AspectRatio = 4.545454502105713
+UIAspectRatioConstraint_62.Parent = TextLabel_44
+UIAspectRatioConstraint_62.AspectRatio = 4.545454502105713
 
-UITextSizeConstraint_26.Parent = TextLabel_44
-UITextSizeConstraint_26.MaxTextSize = 17
+UITextSizeConstraint_25.Parent = TextLabel_44
+UITextSizeConstraint_25.MaxTextSize = 17
 
 TextLabel_45.Parent = f4_3
 TextLabel_45.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -2487,8 +2448,8 @@ TextLabel_45.TextScaled = true
 TextLabel_45.TextSize = 12
 TextLabel_45.TextWrapped = true
 
-UITextSizeConstraint_27.Parent = TextLabel_45
-UITextSizeConstraint_27.MaxTextSize = 12
+UITextSizeConstraint_26.Parent = TextLabel_45
+UITextSizeConstraint_26.MaxTextSize = 12
 
 Frame_16.Parent = f4_3
 Frame_16.BackgroundColor3 = Color3.new(0.176471, 0.176471, 0.2)
@@ -2502,11 +2463,11 @@ ImageLabel_27.Position = UDim2.new(0, 4, 0, 3)
 ImageLabel_27.Size = UDim2.new(0, 24, 0, 23)
 ImageLabel_27.Image = "http://www.roblox.com/asset/?id=6034934039"
 
-UIAspectRatioConstraint_65.Parent = ImageLabel_27
-UIAspectRatioConstraint_65.AspectRatio = 1.04347825050354
+UIAspectRatioConstraint_63.Parent = ImageLabel_27
+UIAspectRatioConstraint_63.AspectRatio = 1.04347825050354
 
-UIAspectRatioConstraint_66.Parent = Frame_16
-UIAspectRatioConstraint_66.AspectRatio = 1.0625
+UIAspectRatioConstraint_64.Parent = Frame_16
+UIAspectRatioConstraint_64.AspectRatio = 1.0625
 
 ToggleBar_6.Name = "ToggleBar"
 ToggleBar_6.Parent = f4_3
@@ -2531,8 +2492,8 @@ onImage_6.Visible = false
 onImage_6.Image = "http://www.roblox.com/asset/?id=6031068430"
 onImage_6.ImageColor3 = Color3.new(0.027451, 0.670588, 0.466667)
 
-UIAspectRatioConstraint_67.Parent = onImage_6
-UIAspectRatioConstraint_67.AspectRatio = 1.0526316165924072
+UIAspectRatioConstraint_65.Parent = onImage_6
+UIAspectRatioConstraint_65.AspectRatio = 1.0526316165924072
 
 offImage_6.Name = "offImage"
 offImage_6.Parent = ToggleBar_6
@@ -2543,17 +2504,17 @@ offImage_6.Size = UDim2.new(0, 40, 0, 38)
 offImage_6.Image = "http://www.roblox.com/asset/?id=6031068429"
 offImage_6.ImageColor3 = Color3.new(0.12549, 0.133333, 0.156863)
 
-UIAspectRatioConstraint_68.Parent = offImage_6
-UIAspectRatioConstraint_68.AspectRatio = 1.0526316165924072
+UIAspectRatioConstraint_66.Parent = offImage_6
+UIAspectRatioConstraint_66.AspectRatio = 1.0526316165924072
 
-UIAspectRatioConstraint_69.Parent = ToggleBar_6
-UIAspectRatioConstraint_69.AspectRatio = 2.767441749572754
+UIAspectRatioConstraint_67.Parent = ToggleBar_6
+UIAspectRatioConstraint_67.AspectRatio = 2.767441749572754
 
-UITextSizeConstraint_28.Parent = ToggleBar_6
-UITextSizeConstraint_28.MaxTextSize = 14
+UITextSizeConstraint_27.Parent = ToggleBar_6
+UITextSizeConstraint_27.MaxTextSize = 14
 
-UIAspectRatioConstraint_70.Parent = f4_3
-UIAspectRatioConstraint_70.AspectRatio = 10
+UIAspectRatioConstraint_68.Parent = f4_3
+UIAspectRatioConstraint_68.AspectRatio = 10
 
 Sidebar.Name = "Sidebar"
 Sidebar.Parent = MainMenu
@@ -2609,11 +2570,11 @@ TextLabel_46.TextScaled = true
 TextLabel_46.TextSize = 13
 TextLabel_46.TextWrapped = true
 
-UIAspectRatioConstraint_71.Parent = TextLabel_46
-UIAspectRatioConstraint_71.AspectRatio = 2.9200000762939453
+UIAspectRatioConstraint_69.Parent = TextLabel_46
+UIAspectRatioConstraint_69.AspectRatio = 2.9200000762939453
 
-UITextSizeConstraint_29.Parent = TextLabel_46
-UITextSizeConstraint_29.MaxTextSize = 13
+UITextSizeConstraint_28.Parent = TextLabel_46
+UITextSizeConstraint_28.MaxTextSize = 13
 
 TextButton.Parent = EDITORBTN
 TextButton.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -2628,14 +2589,14 @@ TextButton.TextScaled = true
 TextButton.TextSize = 14
 TextButton.TextWrapped = true
 
-UIAspectRatioConstraint_72.Parent = TextButton
-UIAspectRatioConstraint_72.AspectRatio = 3.302325487136841
+UIAspectRatioConstraint_70.Parent = TextButton
+UIAspectRatioConstraint_70.AspectRatio = 3.302325487136841
 
-UITextSizeConstraint_30.Parent = TextButton
-UITextSizeConstraint_30.MaxTextSize = 14
+UITextSizeConstraint_29.Parent = TextButton
+UITextSizeConstraint_29.MaxTextSize = 14
 
-UIAspectRatioConstraint_73.Parent = EDITORBTN
-UIAspectRatioConstraint_73.AspectRatio = 3.0999999046325684
+UIAspectRatioConstraint_71.Parent = EDITORBTN
+UIAspectRatioConstraint_71.AspectRatio = 3.0999999046325684
 
 HOMEBTN.Name = "HOMEBTN"
 HOMEBTN.Parent = Sidebar
@@ -2680,11 +2641,11 @@ TextLabel_47.TextScaled = true
 TextLabel_47.TextSize = 13
 TextLabel_47.TextWrapped = true
 
-UIAspectRatioConstraint_74.Parent = TextLabel_47
-UIAspectRatioConstraint_74.AspectRatio = 2.9200000762939453
+UIAspectRatioConstraint_72.Parent = TextLabel_47
+UIAspectRatioConstraint_72.AspectRatio = 2.9200000762939453
 
-UITextSizeConstraint_31.Parent = TextLabel_47
-UITextSizeConstraint_31.MaxTextSize = 13
+UITextSizeConstraint_30.Parent = TextLabel_47
+UITextSizeConstraint_30.MaxTextSize = 13
 
 TextButton_2.Parent = HOMEBTN
 TextButton_2.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -2698,14 +2659,14 @@ TextButton_2.TextScaled = true
 TextButton_2.TextSize = 14
 TextButton_2.TextWrapped = true
 
-UIAspectRatioConstraint_75.Parent = TextButton_2
-UIAspectRatioConstraint_75.AspectRatio = 3.302325487136841
+UIAspectRatioConstraint_73.Parent = TextButton_2
+UIAspectRatioConstraint_73.AspectRatio = 3.302325487136841
 
-UITextSizeConstraint_32.Parent = TextButton_2
-UITextSizeConstraint_32.MaxTextSize = 14
+UITextSizeConstraint_31.Parent = TextButton_2
+UITextSizeConstraint_31.MaxTextSize = 14
 
-UIAspectRatioConstraint_76.Parent = HOMEBTN
-UIAspectRatioConstraint_76.AspectRatio = 3.0999999046325684
+UIAspectRatioConstraint_74.Parent = HOMEBTN
+UIAspectRatioConstraint_74.AspectRatio = 3.0999999046325684
 
 SCRIPTSBTN.Name = "SCRIPTSBTN"
 SCRIPTSBTN.Parent = Sidebar
@@ -2750,11 +2711,11 @@ TextLabel_48.TextScaled = true
 TextLabel_48.TextSize = 13
 TextLabel_48.TextWrapped = true
 
-UIAspectRatioConstraint_77.Parent = TextLabel_48
-UIAspectRatioConstraint_77.AspectRatio = 2.5999999046325684
+UIAspectRatioConstraint_75.Parent = TextLabel_48
+UIAspectRatioConstraint_75.AspectRatio = 2.5999999046325684
 
-UITextSizeConstraint_33.Parent = TextLabel_48
-UITextSizeConstraint_33.MaxTextSize = 13
+UITextSizeConstraint_32.Parent = TextLabel_48
+UITextSizeConstraint_32.MaxTextSize = 13
 
 TextButton_3.Parent = SCRIPTSBTN
 TextButton_3.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -2768,14 +2729,14 @@ TextButton_3.TextScaled = true
 TextButton_3.TextSize = 14
 TextButton_3.TextWrapped = true
 
-UIAspectRatioConstraint_78.Parent = TextButton_3
-UIAspectRatioConstraint_78.AspectRatio = 3.302325487136841
+UIAspectRatioConstraint_76.Parent = TextButton_3
+UIAspectRatioConstraint_76.AspectRatio = 3.302325487136841
 
-UITextSizeConstraint_34.Parent = TextButton_3
-UITextSizeConstraint_34.MaxTextSize = 14
+UITextSizeConstraint_33.Parent = TextButton_3
+UITextSizeConstraint_33.MaxTextSize = 14
 
-UIAspectRatioConstraint_79.Parent = SCRIPTSBTN
-UIAspectRatioConstraint_79.AspectRatio = 3.0999999046325684
+UIAspectRatioConstraint_77.Parent = SCRIPTSBTN
+UIAspectRatioConstraint_77.AspectRatio = 3.0999999046325684
 
 SETTINGSBTN.Name = "SETTINGSBTN"
 SETTINGSBTN.Parent = Sidebar
@@ -2801,8 +2762,8 @@ ImageLabel_34.ZIndex = 99
 ImageLabel_34.Image = "rbxassetid://13403501059"
 ImageLabel_34.ScaleType = Enum.ScaleType.Fit
 
-UIAspectRatioConstraint_80.Parent = ImageLabel_34
-UIAspectRatioConstraint_80.AspectRatio = 0.9444444179534912
+UIAspectRatioConstraint_78.Parent = ImageLabel_34
+UIAspectRatioConstraint_78.AspectRatio = 0.9444444179534912
 
 ImageLabel_35.Parent = Frame_20
 ImageLabel_35.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -2813,8 +2774,8 @@ ImageLabel_35.ZIndex = 99
 ImageLabel_35.Image = "rbxassetid://13403501059"
 ImageLabel_35.ScaleType = Enum.ScaleType.Fit
 
-UIAspectRatioConstraint_81.Parent = ImageLabel_35
-UIAspectRatioConstraint_81.AspectRatio = 0.9444444179534912
+UIAspectRatioConstraint_79.Parent = ImageLabel_35
+UIAspectRatioConstraint_79.AspectRatio = 0.9444444179534912
 
 TextLabel_49.Parent = SETTINGSBTN
 TextLabel_49.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -2828,8 +2789,8 @@ TextLabel_49.TextScaled = true
 TextLabel_49.TextSize = 13
 TextLabel_49.TextWrapped = true
 
-UITextSizeConstraint_35.Parent = TextLabel_49
-UITextSizeConstraint_35.MaxTextSize = 13
+UITextSizeConstraint_34.Parent = TextLabel_49
+UITextSizeConstraint_34.MaxTextSize = 13
 
 TextButton_4.Parent = SETTINGSBTN
 TextButton_4.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -2843,14 +2804,14 @@ TextButton_4.TextScaled = true
 TextButton_4.TextSize = 14
 TextButton_4.TextWrapped = true
 
-UIAspectRatioConstraint_82.Parent = TextButton_4
-UIAspectRatioConstraint_82.AspectRatio = 3.302325487136841
+UIAspectRatioConstraint_80.Parent = TextButton_4
+UIAspectRatioConstraint_80.AspectRatio = 3.302325487136841
 
-UITextSizeConstraint_36.Parent = TextButton_4
-UITextSizeConstraint_36.MaxTextSize = 14
+UITextSizeConstraint_35.Parent = TextButton_4
+UITextSizeConstraint_35.MaxTextSize = 14
 
-UIAspectRatioConstraint_83.Parent = SETTINGSBTN
-UIAspectRatioConstraint_83.AspectRatio = 3.0999999046325684
+UIAspectRatioConstraint_81.Parent = SETTINGSBTN
+UIAspectRatioConstraint_81.AspectRatio = 3.0999999046325684
 
 AccFrame.Name = "AccFrame"
 AccFrame.Parent = Sidebar
@@ -2874,8 +2835,8 @@ TextLabel_50.TextSize = 12
 TextLabel_50.TextWrapped = true
 TextLabel_50.TextXAlignment = Enum.TextXAlignment.Left
 
-UIAspectRatioConstraint_84.Parent = TextLabel_50
-UIAspectRatioConstraint_84.AspectRatio = 5.5625
+UIAspectRatioConstraint_82.Parent = TextLabel_50
+UIAspectRatioConstraint_82.AspectRatio = 5.5625
 
 DName.Name = "DName"
 DName.Parent = AccFrame
@@ -2901,7 +2862,7 @@ view.Size = UDim2.new(0, 11, 0, 11)
 view.ZIndex = 4
 view.Image = "http://www.roblox.com/asset/?id=6031091008"
 
-UIAspectRatioConstraint_85.Parent = view
+UIAspectRatioConstraint_83.Parent = view
 
 statusImage.Name = "statusImage"
 statusImage.Parent = AccFrame
@@ -2913,7 +2874,7 @@ statusImage.ZIndex = 999999999
 statusImage.Image = "http://www.roblox.com/asset/?id=6031625146"
 statusImage.ImageColor3 = Color3.new(0.027451, 0.670588, 0.466667)
 
-UIAspectRatioConstraint_86.Parent = statusImage
+UIAspectRatioConstraint_84.Parent = statusImage
 
 SidebarH.Name = "SidebarH"
 SidebarH.Parent = MainMenu
@@ -2922,8 +2883,8 @@ SidebarH.Position = UDim2.new(0, 139, 0, 51)
 SidebarH.Size = UDim2.new(0, 5, 0, 275)
 SidebarH.ZIndex = 4
 
-UIAspectRatioConstraint_87.Parent = SidebarH
-UIAspectRatioConstraint_87.AspectRatio = 0.0181818176060915
+UIAspectRatioConstraint_85.Parent = SidebarH
+UIAspectRatioConstraint_85.AspectRatio = 0.0181818176060915
 
 Topbar.Name = "Topbar"
 Topbar.Parent = MainMenu
@@ -2943,7 +2904,7 @@ closeBtn.Size = UDim2.new(0, 25, 0, 26)
 closeBtn.ZIndex = 999999999
 closeBtn.Image = "http://www.roblox.com/asset/?id=6031094678"
 
-UIAspectRatioConstraint_88.Parent = closeBtn
+UIAspectRatioConstraint_86.Parent = closeBtn
 
 TextLabel_51.Parent = Topbar
 TextLabel_51.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -2987,7 +2948,7 @@ ImageLabel_37.Image = "http://www.roblox.com/asset/?id=6034983856"
 ImageLabel_37.ImageColor3 = Color3.new(0.945098, 0.952941, 1)
 ImageLabel_37.ScaleType = Enum.ScaleType.Fit
 
-UIAspectRatioConstraint_89.Parent = ImageLabel_37
+UIAspectRatioConstraint_87.Parent = ImageLabel_37
 
 TextLabel_53.Parent = Topbar
 TextLabel_53.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3021,8 +2982,8 @@ TopbarH.Position = UDim2.new(0, 18, 0, 54)
 TopbarH.Size = UDim2.new(0, 520, 0, 3)
 TopbarH.ZIndex = 6
 
-UIAspectRatioConstraint_90.Parent = TopbarH
-UIAspectRatioConstraint_90.AspectRatio = 173.3333282470703
+UIAspectRatioConstraint_88.Parent = TopbarH
+UIAspectRatioConstraint_88.AspectRatio = 173.3333282470703
 
 WelcomeWindow.Name = "WelcomeWindow"
 WelcomeWindow.Parent = MainMenu
@@ -3032,8 +2993,8 @@ WelcomeWindow.Size = UDim2.new(0, 554, 0, 339)
 WelcomeWindow.Visible = false
 WelcomeWindow.ZIndex = 999999999
 
-UIAspectRatioConstraint_91.Parent = WelcomeWindow
-UIAspectRatioConstraint_91.AspectRatio = 1.6342183351516724
+UIAspectRatioConstraint_89.Parent = WelcomeWindow
+UIAspectRatioConstraint_89.AspectRatio = 1.6342183351516724
 
 welcomerFrame.Name = "welcomerFrame"
 welcomerFrame.Parent = WelcomeWindow
@@ -3056,11 +3017,11 @@ TextLabel_55.TextScaled = true
 TextLabel_55.TextSize = 16
 TextLabel_55.TextWrapped = true
 
-UITextSizeConstraint_37.Parent = TextLabel_55
-UITextSizeConstraint_37.MaxTextSize = 16
+UITextSizeConstraint_36.Parent = TextLabel_55
+UITextSizeConstraint_36.MaxTextSize = 16
 
-UIAspectRatioConstraint_92.Parent = TextLabel_55
-UIAspectRatioConstraint_92.AspectRatio = 8.966666221618652
+UIAspectRatioConstraint_90.Parent = TextLabel_55
+UIAspectRatioConstraint_90.AspectRatio = 8.966666221618652
 
 Page2.Name = "Page2"
 Page2.Parent = welcomerFrame
@@ -3079,7 +3040,7 @@ ImageLabel_38.ZIndex = 999999999
 ImageLabel_38.Image = "rbxassetid://13618770731"
 ImageLabel_38.ImageColor3 = Color3.new(0.2, 0.215686, 0.239216)
 
-UIAspectRatioConstraint_93.Parent = ImageLabel_38
+UIAspectRatioConstraint_91.Parent = ImageLabel_38
 
 ImageLabel_39.Parent = Page2
 ImageLabel_39.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3090,7 +3051,7 @@ ImageLabel_39.ZIndex = 999999999
 ImageLabel_39.Image = "rbxassetid://13618770731"
 ImageLabel_39.ImageColor3 = Color3.new(0.2, 0.215686, 0.239216)
 
-UIAspectRatioConstraint_94.Parent = ImageLabel_39
+UIAspectRatioConstraint_92.Parent = ImageLabel_39
 
 ImageLabel_40.Parent = Page2
 ImageLabel_40.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3100,7 +3061,7 @@ ImageLabel_40.Size = UDim2.new(0, 41, 0, 41)
 ImageLabel_40.Image = "rbxassetid://13618770731"
 ImageLabel_40.ImageColor3 = Color3.new(0.2, 0.215686, 0.239216)
 
-UIAspectRatioConstraint_95.Parent = ImageLabel_40
+UIAspectRatioConstraint_93.Parent = ImageLabel_40
 
 ImageLabel_41.Parent = Page2
 ImageLabel_41.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3110,7 +3071,7 @@ ImageLabel_41.Size = UDim2.new(0, 41, 0, 41)
 ImageLabel_41.Image = "rbxassetid://13618770731"
 ImageLabel_41.ImageColor3 = Color3.new(0.2, 0.215686, 0.239216)
 
-UIAspectRatioConstraint_96.Parent = ImageLabel_41
+UIAspectRatioConstraint_94.Parent = ImageLabel_41
 
 ImageLabel_42.Parent = Page2
 ImageLabel_42.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3120,7 +3081,7 @@ ImageLabel_42.Size = UDim2.new(0, 41, 0, 41)
 ImageLabel_42.Image = "rbxassetid://13618770731"
 ImageLabel_42.ImageColor3 = Color3.new(0.2, 0.215686, 0.239216)
 
-UIAspectRatioConstraint_97.Parent = ImageLabel_42
+UIAspectRatioConstraint_95.Parent = ImageLabel_42
 
 ImageLabel_43.Parent = Page2
 ImageLabel_43.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3130,7 +3091,7 @@ ImageLabel_43.Size = UDim2.new(0, 41, 0, 41)
 ImageLabel_43.Image = "rbxassetid://13618770731"
 ImageLabel_43.ImageColor3 = Color3.new(0.2, 0.215686, 0.239216)
 
-UIAspectRatioConstraint_98.Parent = ImageLabel_43
+UIAspectRatioConstraint_96.Parent = ImageLabel_43
 
 ImageLabel_44.Parent = Page2
 ImageLabel_44.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3140,7 +3101,7 @@ ImageLabel_44.Size = UDim2.new(0, 41, 0, 41)
 ImageLabel_44.Image = "rbxassetid://13618770731"
 ImageLabel_44.ImageColor3 = Color3.new(0.2, 0.215686, 0.239216)
 
-UIAspectRatioConstraint_99.Parent = ImageLabel_44
+UIAspectRatioConstraint_97.Parent = ImageLabel_44
 
 ImageLabel_45.Parent = Page2
 ImageLabel_45.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3151,7 +3112,7 @@ ImageLabel_45.ZIndex = 999999999
 ImageLabel_45.Image = "rbxassetid://13618770731"
 ImageLabel_45.ImageColor3 = Color3.new(0.2, 0.215686, 0.239216)
 
-UIAspectRatioConstraint_100.Parent = ImageLabel_45
+UIAspectRatioConstraint_98.Parent = ImageLabel_45
 
 ImageLabel_46.Parent = Page2
 ImageLabel_46.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3161,7 +3122,7 @@ ImageLabel_46.Size = UDim2.new(0, 41, 0, 41)
 ImageLabel_46.Image = "rbxassetid://13618770731"
 ImageLabel_46.ImageColor3 = Color3.new(0.2, 0.215686, 0.239216)
 
-UIAspectRatioConstraint_101.Parent = ImageLabel_46
+UIAspectRatioConstraint_99.Parent = ImageLabel_46
 
 ImageLabel_47.Parent = Page2
 ImageLabel_47.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3172,7 +3133,7 @@ ImageLabel_47.ZIndex = 999999999
 ImageLabel_47.Image = "rbxassetid://13618770731"
 ImageLabel_47.ImageColor3 = Color3.new(0.2, 0.215686, 0.239216)
 
-UIAspectRatioConstraint_102.Parent = ImageLabel_47
+UIAspectRatioConstraint_100.Parent = ImageLabel_47
 
 ImageLabel_48.Parent = Page2
 ImageLabel_48.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3183,7 +3144,7 @@ ImageLabel_48.ZIndex = 999999999
 ImageLabel_48.Image = "rbxassetid://13618770731"
 ImageLabel_48.ImageColor3 = Color3.new(0.2, 0.215686, 0.239216)
 
-UIAspectRatioConstraint_103.Parent = ImageLabel_48
+UIAspectRatioConstraint_101.Parent = ImageLabel_48
 
 ImageLabel_49.Parent = Page2
 ImageLabel_49.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3194,7 +3155,7 @@ ImageLabel_49.ZIndex = 999999999
 ImageLabel_49.Image = "rbxassetid://13618770731"
 ImageLabel_49.ImageColor3 = Color3.new(0.2, 0.215686, 0.239216)
 
-UIAspectRatioConstraint_104.Parent = ImageLabel_49
+UIAspectRatioConstraint_102.Parent = ImageLabel_49
 
 ImageLabel_50.Parent = Page2
 ImageLabel_50.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3205,7 +3166,7 @@ ImageLabel_50.ZIndex = 999999999
 ImageLabel_50.Image = "rbxassetid://13618770731"
 ImageLabel_50.ImageColor3 = Color3.new(0.2, 0.215686, 0.239216)
 
-UIAspectRatioConstraint_105.Parent = ImageLabel_50
+UIAspectRatioConstraint_103.Parent = ImageLabel_50
 
 Frame_21.Parent = Page2
 Frame_21.BackgroundColor3 = Color3.new(0.121569, 0.12549, 0.141176)
@@ -3214,8 +3175,8 @@ Frame_21.Position = UDim2.new(0, 346, 0, -57)
 Frame_21.Size = UDim2.new(0, 66, 0, 290)
 Frame_21.ZIndex = 999999999
 
-UIAspectRatioConstraint_106.Parent = Frame_21
-UIAspectRatioConstraint_106.AspectRatio = 0.22758620977401733
+UIAspectRatioConstraint_104.Parent = Frame_21
+UIAspectRatioConstraint_104.AspectRatio = 0.22758620977401733
 
 ImageLabel_51.Parent = Page2
 ImageLabel_51.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3226,7 +3187,7 @@ ImageLabel_51.ZIndex = 999999999
 ImageLabel_51.Image = "rbxassetid://13618770731"
 ImageLabel_51.ImageColor3 = Color3.new(0.2, 0.215686, 0.239216)
 
-UIAspectRatioConstraint_107.Parent = ImageLabel_51
+UIAspectRatioConstraint_105.Parent = ImageLabel_51
 
 ImageLabel_52.Parent = Page2
 ImageLabel_52.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3237,7 +3198,7 @@ ImageLabel_52.ZIndex = 999999999
 ImageLabel_52.Image = "rbxassetid://13618770731"
 ImageLabel_52.ImageColor3 = Color3.new(0.2, 0.215686, 0.239216)
 
-UIAspectRatioConstraint_108.Parent = ImageLabel_52
+UIAspectRatioConstraint_106.Parent = ImageLabel_52
 
 Frame_22.Parent = Page2
 Frame_22.BackgroundColor3 = Color3.new(0.121569, 0.12549, 0.141176)
@@ -3259,11 +3220,11 @@ TextLabel_56.TextScaled = true
 TextLabel_56.TextSize = 14
 TextLabel_56.TextWrapped = true
 
-UIAspectRatioConstraint_109.Parent = TextLabel_56
-UIAspectRatioConstraint_109.AspectRatio = 13.399999618530273
+UIAspectRatioConstraint_107.Parent = TextLabel_56
+UIAspectRatioConstraint_107.AspectRatio = 13.399999618530273
 
-UITextSizeConstraint_38.Parent = TextLabel_56
-UITextSizeConstraint_38.MaxTextSize = 14
+UITextSizeConstraint_37.Parent = TextLabel_56
+UITextSizeConstraint_37.MaxTextSize = 14
 
 TextLabel_57.Parent = Frame_22
 TextLabel_57.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3278,11 +3239,11 @@ TextLabel_57.TextScaled = true
 TextLabel_57.TextSize = 14
 TextLabel_57.TextWrapped = true
 
-UIAspectRatioConstraint_110.Parent = TextLabel_57
-UIAspectRatioConstraint_110.AspectRatio = 1.045454502105713
+UIAspectRatioConstraint_108.Parent = TextLabel_57
+UIAspectRatioConstraint_108.AspectRatio = 1.045454502105713
 
-UITextSizeConstraint_39.Parent = TextLabel_57
-UITextSizeConstraint_39.MaxTextSize = 14
+UITextSizeConstraint_38.Parent = TextLabel_57
+UITextSizeConstraint_38.MaxTextSize = 14
 
 TextLabel_58.Parent = Frame_22
 TextLabel_58.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3297,11 +3258,11 @@ TextLabel_58.TextScaled = true
 TextLabel_58.TextSize = 14
 TextLabel_58.TextWrapped = true
 
-UIAspectRatioConstraint_111.Parent = TextLabel_58
-UIAspectRatioConstraint_111.AspectRatio = 2.545454502105713
+UIAspectRatioConstraint_109.Parent = TextLabel_58
+UIAspectRatioConstraint_109.AspectRatio = 2.545454502105713
 
-UITextSizeConstraint_40.Parent = TextLabel_58
-UITextSizeConstraint_40.MaxTextSize = 14
+UITextSizeConstraint_39.Parent = TextLabel_58
+UITextSizeConstraint_39.MaxTextSize = 14
 
 TextLabel_59.Parent = Frame_22
 TextLabel_59.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3316,11 +3277,11 @@ TextLabel_59.TextScaled = true
 TextLabel_59.TextSize = 14
 TextLabel_59.TextWrapped = true
 
-UIAspectRatioConstraint_112.Parent = TextLabel_59
-UIAspectRatioConstraint_112.AspectRatio = 10.071428298950195
+UIAspectRatioConstraint_110.Parent = TextLabel_59
+UIAspectRatioConstraint_110.AspectRatio = 10.071428298950195
 
-UITextSizeConstraint_41.Parent = TextLabel_59
-UITextSizeConstraint_41.MaxTextSize = 14
+UITextSizeConstraint_40.Parent = TextLabel_59
+UITextSizeConstraint_40.MaxTextSize = 14
 
 TextLabel_60.Parent = Frame_22
 TextLabel_60.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3335,10 +3296,10 @@ TextLabel_60.TextScaled = true
 TextLabel_60.TextSize = 14
 TextLabel_60.TextWrapped = true
 
-UIAspectRatioConstraint_113.Parent = TextLabel_60
+UIAspectRatioConstraint_111.Parent = TextLabel_60
 
-UITextSizeConstraint_42.Parent = TextLabel_60
-UITextSizeConstraint_42.MaxTextSize = 14
+UITextSizeConstraint_41.Parent = TextLabel_60
+UITextSizeConstraint_41.MaxTextSize = 14
 
 TextLabel_61.Parent = Frame_22
 TextLabel_61.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3353,11 +3314,11 @@ TextLabel_61.TextScaled = true
 TextLabel_61.TextSize = 14
 TextLabel_61.TextWrapped = true
 
-UIAspectRatioConstraint_114.Parent = TextLabel_61
-UIAspectRatioConstraint_114.AspectRatio = 2.7142856121063232
+UIAspectRatioConstraint_112.Parent = TextLabel_61
+UIAspectRatioConstraint_112.AspectRatio = 2.7142856121063232
 
-UITextSizeConstraint_43.Parent = TextLabel_61
-UITextSizeConstraint_43.MaxTextSize = 14
+UITextSizeConstraint_42.Parent = TextLabel_61
+UITextSizeConstraint_42.MaxTextSize = 14
 
 TextLabel_62.Parent = Frame_22
 TextLabel_62.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3372,11 +3333,11 @@ TextLabel_62.TextScaled = true
 TextLabel_62.TextSize = 14
 TextLabel_62.TextWrapped = true
 
-UIAspectRatioConstraint_115.Parent = TextLabel_62
-UIAspectRatioConstraint_115.AspectRatio = 2.7142856121063232
+UIAspectRatioConstraint_113.Parent = TextLabel_62
+UIAspectRatioConstraint_113.AspectRatio = 2.7142856121063232
 
-UITextSizeConstraint_44.Parent = TextLabel_62
-UITextSizeConstraint_44.MaxTextSize = 14
+UITextSizeConstraint_43.Parent = TextLabel_62
+UITextSizeConstraint_43.MaxTextSize = 14
 
 TextLabel_63.Parent = Frame_22
 TextLabel_63.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3391,11 +3352,11 @@ TextLabel_63.TextScaled = true
 TextLabel_63.TextSize = 14
 TextLabel_63.TextWrapped = true
 
-UIAspectRatioConstraint_116.Parent = TextLabel_63
-UIAspectRatioConstraint_116.AspectRatio = 2.545454502105713
+UIAspectRatioConstraint_114.Parent = TextLabel_63
+UIAspectRatioConstraint_114.AspectRatio = 2.545454502105713
 
-UITextSizeConstraint_45.Parent = TextLabel_63
-UITextSizeConstraint_45.MaxTextSize = 14
+UITextSizeConstraint_44.Parent = TextLabel_63
+UITextSizeConstraint_44.MaxTextSize = 14
 
 TextLabel_64.Parent = Frame_22
 TextLabel_64.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3410,8 +3371,8 @@ TextLabel_64.TextScaled = true
 TextLabel_64.TextSize = 14
 TextLabel_64.TextWrapped = true
 
-UITextSizeConstraint_46.Parent = TextLabel_64
-UITextSizeConstraint_46.MaxTextSize = 14
+UITextSizeConstraint_45.Parent = TextLabel_64
+UITextSizeConstraint_45.MaxTextSize = 14
 
 TextLabel_65.Parent = Frame_22
 TextLabel_65.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3426,8 +3387,8 @@ TextLabel_65.TextScaled = true
 TextLabel_65.TextSize = 14
 TextLabel_65.TextWrapped = true
 
-UITextSizeConstraint_47.Parent = TextLabel_65
-UITextSizeConstraint_47.MaxTextSize = 14
+UITextSizeConstraint_46.Parent = TextLabel_65
+UITextSizeConstraint_46.MaxTextSize = 14
 
 TextLabel_66.Parent = Frame_22
 TextLabel_66.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3442,8 +3403,8 @@ TextLabel_66.TextScaled = true
 TextLabel_66.TextSize = 14
 TextLabel_66.TextWrapped = true
 
-UITextSizeConstraint_48.Parent = TextLabel_66
-UITextSizeConstraint_48.MaxTextSize = 14
+UITextSizeConstraint_47.Parent = TextLabel_66
+UITextSizeConstraint_47.MaxTextSize = 14
 
 TextLabel_67.Parent = Frame_22
 TextLabel_67.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3458,8 +3419,8 @@ TextLabel_67.TextScaled = true
 TextLabel_67.TextSize = 14
 TextLabel_67.TextWrapped = true
 
-UITextSizeConstraint_49.Parent = TextLabel_67
-UITextSizeConstraint_49.MaxTextSize = 14
+UITextSizeConstraint_48.Parent = TextLabel_67
+UITextSizeConstraint_48.MaxTextSize = 14
 
 TextLabel_68.Parent = Frame_22
 TextLabel_68.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3474,11 +3435,11 @@ TextLabel_68.TextScaled = true
 TextLabel_68.TextSize = 14
 TextLabel_68.TextWrapped = true
 
-UIAspectRatioConstraint_117.Parent = TextLabel_68
-UIAspectRatioConstraint_117.AspectRatio = 3.7352941036224365
+UIAspectRatioConstraint_115.Parent = TextLabel_68
+UIAspectRatioConstraint_115.AspectRatio = 3.7352941036224365
 
-UITextSizeConstraint_50.Parent = TextLabel_68
-UITextSizeConstraint_50.MaxTextSize = 14
+UITextSizeConstraint_49.Parent = TextLabel_68
+UITextSizeConstraint_49.MaxTextSize = 14
 
 iagreeFr.Name = "iagreeFr"
 iagreeFr.Parent = Frame_22
@@ -3500,11 +3461,11 @@ TextLabel_69.TextScaled = true
 TextLabel_69.TextSize = 13
 TextLabel_69.TextWrapped = true
 
-UIAspectRatioConstraint_118.Parent = TextLabel_69
-UIAspectRatioConstraint_118.AspectRatio = 3.370370388031006
+UIAspectRatioConstraint_116.Parent = TextLabel_69
+UIAspectRatioConstraint_116.AspectRatio = 3.370370388031006
 
-UITextSizeConstraint_51.Parent = TextLabel_69
-UITextSizeConstraint_51.MaxTextSize = 13
+UITextSizeConstraint_50.Parent = TextLabel_69
+UITextSizeConstraint_50.MaxTextSize = 13
 
 iagree.Name = "iagree"
 iagree.Parent = iagreeFr
@@ -3519,14 +3480,14 @@ iagree.TextScaled = true
 iagree.TextSize = 14
 iagree.TextWrapped = true
 
-UIAspectRatioConstraint_119.Parent = iagree
-UIAspectRatioConstraint_119.AspectRatio = 3.3142857551574707
+UIAspectRatioConstraint_117.Parent = iagree
+UIAspectRatioConstraint_117.AspectRatio = 3.3142857551574707
 
-UITextSizeConstraint_52.Parent = iagree
-UITextSizeConstraint_52.MaxTextSize = 14
+UITextSizeConstraint_51.Parent = iagree
+UITextSizeConstraint_51.MaxTextSize = 14
 
-UIAspectRatioConstraint_120.Parent = iagreeFr
-UIAspectRatioConstraint_120.AspectRatio = 3.25
+UIAspectRatioConstraint_118.Parent = iagreeFr
+UIAspectRatioConstraint_118.AspectRatio = 3.25
 
 TextLabel_70.Parent = Frame_22
 TextLabel_70.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3541,8 +3502,8 @@ TextLabel_70.TextScaled = true
 TextLabel_70.TextSize = 14
 TextLabel_70.TextWrapped = true
 
-UITextSizeConstraint_53.Parent = TextLabel_70
-UITextSizeConstraint_53.MaxTextSize = 14
+UITextSizeConstraint_52.Parent = TextLabel_70
+UITextSizeConstraint_52.MaxTextSize = 14
 
 TextLabel_71.Parent = Frame_22
 TextLabel_71.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3557,11 +3518,11 @@ TextLabel_71.TextScaled = true
 TextLabel_71.TextSize = 14
 TextLabel_71.TextWrapped = true
 
-UITextSizeConstraint_54.Parent = TextLabel_71
-UITextSizeConstraint_54.MaxTextSize = 14
+UITextSizeConstraint_53.Parent = TextLabel_71
+UITextSizeConstraint_53.MaxTextSize = 14
 
-UIAspectRatioConstraint_121.Parent = Frame_22
-UIAspectRatioConstraint_121.AspectRatio = 0.8956229090690613
+UIAspectRatioConstraint_119.Parent = Frame_22
+UIAspectRatioConstraint_119.AspectRatio = 0.8956229090690613
 
 ImageLabel_53.Parent = Page2
 ImageLabel_53.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3572,10 +3533,10 @@ ImageLabel_53.ZIndex = 999999999
 ImageLabel_53.Image = "rbxassetid://13618770731"
 ImageLabel_53.ImageColor3 = Color3.new(0.2, 0.215686, 0.239216)
 
-UIAspectRatioConstraint_122.Parent = ImageLabel_53
+UIAspectRatioConstraint_120.Parent = ImageLabel_53
 
-UIAspectRatioConstraint_123.Parent = Page2
-UIAspectRatioConstraint_123.AspectRatio = 2.0161290168762207
+UIAspectRatioConstraint_121.Parent = Page2
+UIAspectRatioConstraint_121.AspectRatio = 2.0161290168762207
 
 ImageLabel_54.Parent = Page2
 ImageLabel_54.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3586,7 +3547,7 @@ ImageLabel_54.ZIndex = 999999999
 ImageLabel_54.Image = "rbxassetid://13618770731"
 ImageLabel_54.ImageColor3 = Color3.new(0.2, 0.215686, 0.239216)
 
-UIAspectRatioConstraint_124.Parent = ImageLabel_54
+UIAspectRatioConstraint_122.Parent = ImageLabel_54
 
 TextLabel_72.Parent = welcomerFrame
 TextLabel_72.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3601,8 +3562,8 @@ TextLabel_72.TextScaled = true
 TextLabel_72.TextSize = 16
 TextLabel_72.TextWrapped = true
 
-UITextSizeConstraint_55.Parent = TextLabel_72
-UITextSizeConstraint_55.MaxTextSize = 16
+UITextSizeConstraint_54.Parent = TextLabel_72
+UITextSizeConstraint_54.MaxTextSize = 16
 
 TextLabel_73.Parent = welcomerFrame
 TextLabel_73.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3617,14 +3578,14 @@ TextLabel_73.TextScaled = true
 TextLabel_73.TextSize = 16
 TextLabel_73.TextWrapped = true
 
-UITextSizeConstraint_56.Parent = TextLabel_73
-UITextSizeConstraint_56.MaxTextSize = 16
+UITextSizeConstraint_55.Parent = TextLabel_73
+UITextSizeConstraint_55.MaxTextSize = 16
 
-UIAspectRatioConstraint_125.Parent = TextLabel_73
-UIAspectRatioConstraint_125.AspectRatio = 8.933333396911621
+UIAspectRatioConstraint_123.Parent = TextLabel_73
+UIAspectRatioConstraint_123.AspectRatio = 8.933333396911621
 
-UIAspectRatioConstraint_126.Parent = welcomerFrame
-UIAspectRatioConstraint_126.AspectRatio = 1.4982578754425049
+UIAspectRatioConstraint_124.Parent = welcomerFrame
+UIAspectRatioConstraint_124.AspectRatio = 1.4982578754425049
 
 clearWindow.Name = "clearWindow"
 clearWindow.Parent = MainMenu
@@ -3661,11 +3622,11 @@ TextLabel_74.TextScaled = true
 TextLabel_74.TextSize = 13
 TextLabel_74.TextWrapped = true
 
-UIAspectRatioConstraint_127.Parent = TextLabel_74
-UIAspectRatioConstraint_127.AspectRatio = 3.370370388031006
+UIAspectRatioConstraint_125.Parent = TextLabel_74
+UIAspectRatioConstraint_125.AspectRatio = 3.370370388031006
 
-UITextSizeConstraint_57.Parent = TextLabel_74
-UITextSizeConstraint_57.MaxTextSize = 13
+UITextSizeConstraint_56.Parent = TextLabel_74
+UITextSizeConstraint_56.MaxTextSize = 13
 
 clear.Name = "clear"
 clear.Parent = Frame_23
@@ -3680,14 +3641,14 @@ clear.TextScaled = true
 clear.TextSize = 14
 clear.TextWrapped = true
 
-UIAspectRatioConstraint_128.Parent = clear
-UIAspectRatioConstraint_128.AspectRatio = 3.3142857551574707
+UIAspectRatioConstraint_126.Parent = clear
+UIAspectRatioConstraint_126.AspectRatio = 3.3142857551574707
 
-UITextSizeConstraint_58.Parent = clear
-UITextSizeConstraint_58.MaxTextSize = 14
+UITextSizeConstraint_57.Parent = clear
+UITextSizeConstraint_57.MaxTextSize = 14
 
-UIAspectRatioConstraint_129.Parent = Frame_23
-UIAspectRatioConstraint_129.AspectRatio = 3.25
+UIAspectRatioConstraint_127.Parent = Frame_23
+UIAspectRatioConstraint_127.AspectRatio = 3.25
 
 Frame_24.Parent = clearFrame
 Frame_24.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.172549)
@@ -3708,8 +3669,8 @@ TextLabel_75.TextScaled = true
 TextLabel_75.TextSize = 13
 TextLabel_75.TextWrapped = true
 
-UITextSizeConstraint_59.Parent = TextLabel_75
-UITextSizeConstraint_59.MaxTextSize = 13
+UITextSizeConstraint_58.Parent = TextLabel_75
+UITextSizeConstraint_58.MaxTextSize = 13
 
 TextButton_5.Parent = Frame_24
 TextButton_5.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3724,14 +3685,14 @@ TextButton_5.TextScaled = true
 TextButton_5.TextSize = 14
 TextButton_5.TextWrapped = true
 
-UIAspectRatioConstraint_130.Parent = TextButton_5
-UIAspectRatioConstraint_130.AspectRatio = 2.5833332538604736
+UIAspectRatioConstraint_128.Parent = TextButton_5
+UIAspectRatioConstraint_128.AspectRatio = 2.5833332538604736
 
-UITextSizeConstraint_60.Parent = TextButton_5
-UITextSizeConstraint_60.MaxTextSize = 14
+UITextSizeConstraint_59.Parent = TextButton_5
+UITextSizeConstraint_59.MaxTextSize = 14
 
-UIAspectRatioConstraint_131.Parent = Frame_24
-UIAspectRatioConstraint_131.AspectRatio = 2.696969747543335
+UIAspectRatioConstraint_129.Parent = Frame_24
+UIAspectRatioConstraint_129.AspectRatio = 2.696969747543335
 
 TextLabel_76.Parent = clearFrame
 TextLabel_76.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3746,11 +3707,11 @@ TextLabel_76.TextScaled = true
 TextLabel_76.TextSize = 16
 TextLabel_76.TextWrapped = true
 
-UIAspectRatioConstraint_132.Parent = TextLabel_76
-UIAspectRatioConstraint_132.AspectRatio = 5.052631378173828
+UIAspectRatioConstraint_130.Parent = TextLabel_76
+UIAspectRatioConstraint_130.AspectRatio = 5.052631378173828
 
-UITextSizeConstraint_61.Parent = TextLabel_76
-UITextSizeConstraint_61.MaxTextSize = 16
+UITextSizeConstraint_60.Parent = TextLabel_76
+UITextSizeConstraint_60.MaxTextSize = 16
 
 TextLabel_77.Parent = clearFrame
 TextLabel_77.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3765,11 +3726,11 @@ TextLabel_77.TextScaled = true
 TextLabel_77.TextSize = 14
 TextLabel_77.TextWrapped = true
 
-UIAspectRatioConstraint_133.Parent = TextLabel_77
-UIAspectRatioConstraint_133.AspectRatio = 20.933332443237305
+UIAspectRatioConstraint_131.Parent = TextLabel_77
+UIAspectRatioConstraint_131.AspectRatio = 20.933332443237305
 
-UITextSizeConstraint_62.Parent = TextLabel_77
-UITextSizeConstraint_62.MaxTextSize = 14
+UITextSizeConstraint_61.Parent = TextLabel_77
+UITextSizeConstraint_61.MaxTextSize = 14
 
 TextLabel_78.Parent = clearFrame
 TextLabel_78.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3784,11 +3745,11 @@ TextLabel_78.TextScaled = true
 TextLabel_78.TextSize = 14
 TextLabel_78.TextWrapped = true
 
-UIAspectRatioConstraint_134.Parent = TextLabel_78
-UIAspectRatioConstraint_134.AspectRatio = 3.1600000858306885
+UIAspectRatioConstraint_132.Parent = TextLabel_78
+UIAspectRatioConstraint_132.AspectRatio = 3.1600000858306885
 
-UITextSizeConstraint_63.Parent = TextLabel_78
-UITextSizeConstraint_63.MaxTextSize = 14
+UITextSizeConstraint_62.Parent = TextLabel_78
+UITextSizeConstraint_62.MaxTextSize = 14
 
 ImageButton.Parent = clearFrame
 ImageButton.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3798,13 +3759,13 @@ ImageButton.Size = UDim2.new(0, 18, 0, 18)
 ImageButton.ZIndex = 999999999
 ImageButton.Image = "http://www.roblox.com/asset/?id=6031094678"
 
-UIAspectRatioConstraint_135.Parent = ImageButton
+UIAspectRatioConstraint_133.Parent = ImageButton
 
-UIAspectRatioConstraint_136.Parent = clearFrame
-UIAspectRatioConstraint_136.AspectRatio = 2
+UIAspectRatioConstraint_134.Parent = clearFrame
+UIAspectRatioConstraint_134.AspectRatio = 2
 
-UIAspectRatioConstraint_137.Parent = clearWindow
-UIAspectRatioConstraint_137.AspectRatio = 1.6342183351516724
+UIAspectRatioConstraint_135.Parent = clearWindow
+UIAspectRatioConstraint_135.AspectRatio = 1.6342183351516724
 
 shadow2_3.Name = "shadow2"
 shadow2_3.Parent = MainMenu
@@ -3813,8 +3774,8 @@ shadow2_3.Position = UDim2.new(0, 131, 0, 39)
 shadow2_3.Size = UDim2.new(0, 24, 0, 286)
 shadow2_3.ZIndex = 2
 
-UIAspectRatioConstraint_138.Parent = shadow2_3
-UIAspectRatioConstraint_138.AspectRatio = 0.0839160829782486
+UIAspectRatioConstraint_136.Parent = shadow2_3
+UIAspectRatioConstraint_136.AspectRatio = 0.0839160829782486
 
 SaveScript.Name = "SaveScript"
 SaveScript.Parent = MainMenu
@@ -3852,11 +3813,11 @@ TextLabel_79.TextScaled = true
 TextLabel_79.TextSize = 13
 TextLabel_79.TextWrapped = true
 
-UIAspectRatioConstraint_139.Parent = TextLabel_79
-UIAspectRatioConstraint_139.AspectRatio = 3.370370388031006
+UIAspectRatioConstraint_137.Parent = TextLabel_79
+UIAspectRatioConstraint_137.AspectRatio = 3.370370388031006
 
-UITextSizeConstraint_64.Parent = TextLabel_79
-UITextSizeConstraint_64.MaxTextSize = 13
+UITextSizeConstraint_63.Parent = TextLabel_79
+UITextSizeConstraint_63.MaxTextSize = 13
 
 clear_2.Name = "clear"
 clear_2.Parent = tess
@@ -3871,14 +3832,14 @@ clear_2.TextScaled = true
 clear_2.TextSize = 14
 clear_2.TextWrapped = true
 
-UIAspectRatioConstraint_140.Parent = clear_2
-UIAspectRatioConstraint_140.AspectRatio = 3.3142857551574707
+UIAspectRatioConstraint_138.Parent = clear_2
+UIAspectRatioConstraint_138.AspectRatio = 3.3142857551574707
 
-UITextSizeConstraint_65.Parent = clear_2
-UITextSizeConstraint_65.MaxTextSize = 14
+UITextSizeConstraint_64.Parent = clear_2
+UITextSizeConstraint_64.MaxTextSize = 14
 
-UIAspectRatioConstraint_141.Parent = tess
-UIAspectRatioConstraint_141.AspectRatio = 3.25
+UIAspectRatioConstraint_139.Parent = tess
+UIAspectRatioConstraint_139.AspectRatio = 3.25
 
 Frame_25.Parent = clearFrame_2
 Frame_25.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.172549)
@@ -3899,8 +3860,8 @@ TextLabel_80.TextScaled = true
 TextLabel_80.TextSize = 13
 TextLabel_80.TextWrapped = true
 
-UITextSizeConstraint_66.Parent = TextLabel_80
-UITextSizeConstraint_66.MaxTextSize = 13
+UITextSizeConstraint_65.Parent = TextLabel_80
+UITextSizeConstraint_65.MaxTextSize = 13
 
 TextButton_6.Parent = Frame_25
 TextButton_6.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3916,14 +3877,14 @@ TextButton_6.TextScaled = true
 TextButton_6.TextSize = 14
 TextButton_6.TextWrapped = true
 
-UIAspectRatioConstraint_142.Parent = TextButton_6
-UIAspectRatioConstraint_142.AspectRatio = 2.5833332538604736
+UIAspectRatioConstraint_140.Parent = TextButton_6
+UIAspectRatioConstraint_140.AspectRatio = 2.5833332538604736
 
-UITextSizeConstraint_67.Parent = TextButton_6
-UITextSizeConstraint_67.MaxTextSize = 14
+UITextSizeConstraint_66.Parent = TextButton_6
+UITextSizeConstraint_66.MaxTextSize = 14
 
-UIAspectRatioConstraint_143.Parent = Frame_25
-UIAspectRatioConstraint_143.AspectRatio = 2.696969747543335
+UIAspectRatioConstraint_141.Parent = Frame_25
+UIAspectRatioConstraint_141.AspectRatio = 2.696969747543335
 
 TextLabel_81.Parent = clearFrame_2
 TextLabel_81.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3938,8 +3899,8 @@ TextLabel_81.TextScaled = true
 TextLabel_81.TextSize = 16
 TextLabel_81.TextWrapped = true
 
-UITextSizeConstraint_68.Parent = TextLabel_81
-UITextSizeConstraint_68.MaxTextSize = 16
+UITextSizeConstraint_67.Parent = TextLabel_81
+UITextSizeConstraint_67.MaxTextSize = 16
 
 ImageButton_2.Parent = clearFrame_2
 ImageButton_2.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -3949,7 +3910,7 @@ ImageButton_2.Size = UDim2.new(0, 18, 0, 18)
 ImageButton_2.ZIndex = 999999999
 ImageButton_2.Image = "http://www.roblox.com/asset/?id=6031094678"
 
-UIAspectRatioConstraint_144.Parent = ImageButton_2
+UIAspectRatioConstraint_142.Parent = ImageButton_2
 
 FileName.Name = "FileName"
 FileName.Parent = clearFrame_2
@@ -4053,8 +4014,8 @@ TextLabel_83.TextColor3 = Color3.new(0.392157, 0.392157, 0.427451)
 TextLabel_83.TextSize = 14
 TextLabel_83.TextWrapped = true
 
-UIAspectRatioConstraint_145.Parent = SaveScript
-UIAspectRatioConstraint_145.AspectRatio = 1.6342183351516724
+UIAspectRatioConstraint_143.Parent = SaveScript
+UIAspectRatioConstraint_143.AspectRatio = 1.6342183351516724
 
 message.Name = "message"
 message.Parent = kr
@@ -4074,7 +4035,7 @@ statusImage1.ZIndex = 999999999
 statusImage1.Image = "http://www.roblox.com/asset/?id=6031094678"
 statusImage1.ImageColor3 = Color3.new(1, 0.27451, 0.286275)
 
-UIAspectRatioConstraint_146.Parent = statusImage1
+UIAspectRatioConstraint_144.Parent = statusImage1
 
 msg.Name = "msg"
 msg.Parent = message
@@ -4105,62 +4066,7 @@ TextLabel_84.TextXAlignment = Enum.TextXAlignment.Left
 	 Scripts:
 --]]
 
-local function FHEZR_fake_script() -- openBtn.openScript 
-	local script = Instance.new('LocalScript', openBtn)
-
-	local btn = script.Parent.Parent.openBtn
-	
-	local mainMenu = script.Parent.Parent.Parent.MainMenu
-	local openKr = script.Parent.Parent.Parent.OpenKr
-	
-	btn.MouseButton1Click:Connect(function()	
-		mainMenu.Visible = true
-		
-		openKr.Visible = false
-		openKr.ImageTransparency = 0.04
-	end)
-end
-coroutine.wrap(FHEZR_fake_script)()
-local function JALJNF_fake_script() -- OpenKr.drag 
-	local script = Instance.new('LocalScript', OpenKr)
-
-	local UIS = game:GetService('UserInputService')
-	local frame = script.Parent.Parent.OpenKr
-	local dragToggle = nil
-	local dragSpeed = 0.25
-	local dragStart = nil
-	local startPos = nil
-	
-	local function updateInput(input)
-		local delta = input.Position - dragStart
-		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
-			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
-	end
-	
-	frame.InputBegan:Connect(function(input)
-		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
-			dragToggle = true
-			dragStart = input.Position
-			startPos = frame.Position
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragToggle = false
-				end
-			end)
-		end
-	end)
-	
-	UIS.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			if dragToggle then
-				updateInput(input)
-			end
-		end
-	end)
-end
-coroutine.wrap(JALJNF_fake_script)()
-local function HJTWOTL_fake_script() -- TextBox_2.LocalScript 
+local function EIKOV_fake_script() -- TextBox_2.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_2)
 
 	local textbox1 = script.Parent.Parent.Parent.Parent.Parent.Parent.MainMenu.EditorPage.Editor.ScrollingFrame.TextBox
@@ -4172,9 +4078,9 @@ local function HJTWOTL_fake_script() -- TextBox_2.LocalScript
 	
 	textbox1.Changed:Connect(syncText)
 end
-coroutine.wrap(HJTWOTL_fake_script)()
+coroutine.wrap(EIKOV_fake_script)()
 -- preview.LocalScript is disabled.
-local function TLNM_fake_script() -- clearBtn.LocalScript 
+local function GPLS_fake_script() -- clearBtn.LocalScript 
 	local script = Instance.new('LocalScript', clearBtn)
 
 	local btn = script.Parent.Parent.clearBtn
@@ -4184,8 +4090,8 @@ local function TLNM_fake_script() -- clearBtn.LocalScript
 		clearW.Visible = true
 	end)
 end
-coroutine.wrap(TLNM_fake_script)()
-local function SJDOGDS_fake_script() -- ExecuteBtn.LocalScript 
+coroutine.wrap(GPLS_fake_script)()
+local function TDFR_fake_script() -- ExecuteBtn.LocalScript 
 	local script = Instance.new('LocalScript', ExecuteBtn)
 
 	local btn = script.Parent.Parent.ExecuteBtn
@@ -4219,16 +4125,16 @@ local function SJDOGDS_fake_script() -- ExecuteBtn.LocalScript
 	end)
 	
 end
-coroutine.wrap(SJDOGDS_fake_script)()
-local function BDTFHH_fake_script() -- saveBtn.LocalScript 
+coroutine.wrap(TDFR_fake_script)()
+local function IWYBO_fake_script() -- saveBtn.LocalScript 
 	local script = Instance.new('LocalScript', saveBtn)
 
 	script.Parent.Parent.saveBtn.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.SaveScript.Visible = true
 	end)
 end
-coroutine.wrap(BDTFHH_fake_script)()
-local function HMZQ_fake_script() -- openConsole.LocalScript 
+coroutine.wrap(IWYBO_fake_script)()
+local function IMAP_fake_script() -- openConsole.LocalScript 
 	local script = Instance.new('LocalScript', openConsole)
 
 	local consolePage = script.Parent.Parent.Parent.Parent.Parent.CONSOLEPAGE
@@ -4250,15 +4156,15 @@ local function HMZQ_fake_script() -- openConsole.LocalScript
 	end)
 	
 end
-coroutine.wrap(HMZQ_fake_script)()
-local function GISWDT_fake_script() -- Pattern.LocalScript 
+coroutine.wrap(IMAP_fake_script)()
+local function YJZQM_fake_script() -- Pattern.LocalScript 
 	local script = Instance.new('LocalScript', Pattern)
 
 	print("Hello world!")
 	
 end
-coroutine.wrap(GISWDT_fake_script)()
-local function USKX_fake_script() -- SavedBtn.LocalScript 
+coroutine.wrap(YJZQM_fake_script)()
+local function GGVKGHB_fake_script() -- SavedBtn.LocalScript 
 	local script = Instance.new('LocalScript', SavedBtn)
 
 	local pr1 = script.Parent.Parent.Parent
@@ -4309,8 +4215,8 @@ local function USKX_fake_script() -- SavedBtn.LocalScript
 		fB.BackgroundColor3 = color2
 	end)
 end
-coroutine.wrap(USKX_fake_script)()
-local function VZFKM_fake_script() -- HubBtn.LocalScript 
+coroutine.wrap(GGVKGHB_fake_script)()
+local function CIHQQU_fake_script() -- HubBtn.LocalScript 
 	local script = Instance.new('LocalScript', HubBtn)
 
 	local pr1 = script.Parent.Parent.Parent
@@ -4361,8 +4267,8 @@ local function VZFKM_fake_script() -- HubBtn.LocalScript
 		fB.BackgroundColor3 = color2
 	end)
 end
-coroutine.wrap(VZFKM_fake_script)()
-local function ZJEAW_fake_script() -- favBtn.LocalScript 
+coroutine.wrap(CIHQQU_fake_script)()
+local function ETTTJES_fake_script() -- favBtn.LocalScript 
 	local script = Instance.new('LocalScript', favBtn)
 
 	local pr1 = script.Parent.Parent.Parent
@@ -4443,8 +4349,8 @@ local function ZJEAW_fake_script() -- favBtn.LocalScript
 		animateFrame1()
 	end
 end
-coroutine.wrap(ZJEAW_fake_script)()
-local function FEZIIUQ_fake_script() -- trigger.LocalScript 
+coroutine.wrap(ETTTJES_fake_script)()
+local function XFWIWCT_fake_script() -- trigger.LocalScript 
 	local script = Instance.new('LocalScript', trigger)
 
 	local btn = script.Parent.Parent.trigger
@@ -4457,8 +4363,8 @@ local function FEZIIUQ_fake_script() -- trigger.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 end
-coroutine.wrap(FEZIIUQ_fake_script)()
-local function IFVBJ_fake_script() -- trigger_2.LocalScript 
+coroutine.wrap(XFWIWCT_fake_script)()
+local function TMPWPUB_fake_script() -- trigger_2.LocalScript 
 	local script = Instance.new('LocalScript', trigger_2)
 
 	local btn = script.Parent.Parent.trigger
@@ -4471,8 +4377,8 @@ local function IFVBJ_fake_script() -- trigger_2.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
 	end)
 end
-coroutine.wrap(IFVBJ_fake_script)()
-local function ZHXJE_fake_script() -- trigger_3.LocalScript 
+coroutine.wrap(TMPWPUB_fake_script)()
+local function UBNLT_fake_script() -- trigger_3.LocalScript 
 	local script = Instance.new('LocalScript', trigger_3)
 
 	local btn = script.Parent.Parent.trigger
@@ -4485,8 +4391,8 @@ local function ZHXJE_fake_script() -- trigger_3.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Game_Hub_v1.5/main/loader"))()
 	end)
 end
-coroutine.wrap(ZHXJE_fake_script)()
-local function URHH_fake_script() -- trigger_4.LocalScript 
+coroutine.wrap(UBNLT_fake_script)()
+local function TLKUFB_fake_script() -- trigger_4.LocalScript 
 	local script = Instance.new('LocalScript', trigger_4)
 
 	local btn = script.Parent.Parent.trigger
@@ -4499,8 +4405,8 @@ local function URHH_fake_script() -- trigger_4.LocalScript
 		loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
 	end)
 end
-coroutine.wrap(URHH_fake_script)()
-local function YYSTHH_fake_script() -- trigger_5.LocalScript 
+coroutine.wrap(TLKUFB_fake_script)()
+local function JVMWWXK_fake_script() -- trigger_5.LocalScript 
 	local script = Instance.new('LocalScript', trigger_5)
 
 	local btn = script.Parent.Parent.trigger
@@ -4513,8 +4419,8 @@ local function YYSTHH_fake_script() -- trigger_5.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 	end)
 end
-coroutine.wrap(YYSTHH_fake_script)()
-local function KSFGGSV_fake_script() -- TextBox_3.LocalScript 
+coroutine.wrap(JVMWWXK_fake_script)()
+local function YLUU_fake_script() -- TextBox_3.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_3)
 
 	local textBox = script.Parent.Parent.TextBox
@@ -4540,8 +4446,8 @@ local function KSFGGSV_fake_script() -- TextBox_3.LocalScript
 	
 	
 end
-coroutine.wrap(KSFGGSV_fake_script)()
-local function CSPKCHB_fake_script() -- refreshBtn.LocalScript 
+coroutine.wrap(YLUU_fake_script)()
+local function VYMIY_fake_script() -- refreshBtn.LocalScript 
 	local script = Instance.new('LocalScript', refreshBtn)
 
 	local TweenService = game:GetService("TweenService")
@@ -4565,14 +4471,14 @@ local function CSPKCHB_fake_script() -- refreshBtn.LocalScript
 	end)
 	
 end
-coroutine.wrap(CSPKCHB_fake_script)()
-local function WBMMZCY_fake_script() -- ScrollingFrame_4.LocalScript 
+coroutine.wrap(VYMIY_fake_script)()
+local function UVEO_fake_script() -- ScrollingFrame_4.LocalScript 
 	local script = Instance.new('LocalScript', ScrollingFrame_4)
 
 	listfiles("Scripts/")
 end
-coroutine.wrap(WBMMZCY_fake_script)()
-local function XVYR_fake_script() -- dots.LocalScript 
+coroutine.wrap(UVEO_fake_script)()
+local function QHSIL_fake_script() -- dots.LocalScript 
 	local script = Instance.new('LocalScript', dots)
 
 	local btn = script.Parent.Parent.dots
@@ -4582,15 +4488,15 @@ local function XVYR_fake_script() -- dots.LocalScript
 		frame.Visible =  not frame.Visible
 	end)
 end
-coroutine.wrap(XVYR_fake_script)()
-local function SMFQM_fake_script() -- delete.LocalScript 
+coroutine.wrap(QHSIL_fake_script)()
+local function NDXFMFH_fake_script() -- delete.LocalScript 
 	local script = Instance.new('LocalScript', delete)
 
 	print("Hello world!")
 	
 end
-coroutine.wrap(SMFQM_fake_script)()
-local function JUHTZTK_fake_script() -- trigger_6.LocalScript 
+coroutine.wrap(NDXFMFH_fake_script)()
+local function KGEMA_fake_script() -- trigger_6.LocalScript 
 	local script = Instance.new('LocalScript', trigger_6)
 
 	local btn = script.Parent.Parent.trigger
@@ -4602,8 +4508,8 @@ local function JUHTZTK_fake_script() -- trigger_6.LocalScript
 			frame.BackgroundColor3 = Color3.fromRGB(36, 37, 43)
 	end)
 end
-coroutine.wrap(JUHTZTK_fake_script)()
-local function QDVPFOP_fake_script() -- ToggleBar.LocalScript 
+coroutine.wrap(KGEMA_fake_script)()
+local function DIAMO_fake_script() -- ToggleBar.LocalScript 
 	local script = Instance.new('LocalScript', ToggleBar)
 
 	local toggleScript = false
@@ -4639,8 +4545,8 @@ local function QDVPFOP_fake_script() -- ToggleBar.LocalScript
 	script.Parent.MouseButton1Click:Connect(toggleButton)
 	
 end
-coroutine.wrap(QDVPFOP_fake_script)()
-local function YGDQ_fake_script() -- ToggleBar_2.LocalScript 
+coroutine.wrap(DIAMO_fake_script)()
+local function IETLT_fake_script() -- ToggleBar_2.LocalScript 
 	local script = Instance.new('LocalScript', ToggleBar_2)
 
 	local toggleScript = false
@@ -4676,9 +4582,9 @@ local function YGDQ_fake_script() -- ToggleBar_2.LocalScript
 	script.Parent.MouseButton1Click:Connect(toggleButton)
 	
 end
-coroutine.wrap(YGDQ_fake_script)()
+coroutine.wrap(IETLT_fake_script)()
 -- cOE.LocalScript is disabled.
-local function ANXJXEE_fake_script() -- ToggleBar_3.LocalScript 
+local function PLGLUM_fake_script() -- ToggleBar_3.LocalScript 
 	local script = Instance.new('LocalScript', ToggleBar_3)
 
 	local toggleScript = false
@@ -4720,8 +4626,8 @@ local function ANXJXEE_fake_script() -- ToggleBar_3.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(toggleButton)
 end
-coroutine.wrap(ANXJXEE_fake_script)()
-local function ZCLHVG_fake_script() -- ToggleBar_4.LocalScript 
+coroutine.wrap(PLGLUM_fake_script)()
+local function URAOHTD_fake_script() -- ToggleBar_4.LocalScript 
 	local script = Instance.new('LocalScript', ToggleBar_4)
 
 	local toggleScript = false
@@ -4752,8 +4658,8 @@ local function ZCLHVG_fake_script() -- ToggleBar_4.LocalScript
 	script.Parent.MouseButton1Click:Connect(toggleButton)
 	
 end
-coroutine.wrap(ZCLHVG_fake_script)()
-local function BHJT_fake_script() -- ToggleBar_5.LocalScript 
+coroutine.wrap(URAOHTD_fake_script)()
+local function GVVR_fake_script() -- ToggleBar_5.LocalScript 
 	local script = Instance.new('LocalScript', ToggleBar_5)
 
 	local toggleScript = false
@@ -4793,8 +4699,8 @@ local function BHJT_fake_script() -- ToggleBar_5.LocalScript
 	script.Parent.MouseButton1Click:Connect(toggleButton)
 	
 end
-coroutine.wrap(BHJT_fake_script)()
-local function SNGIBN_fake_script() -- ToggleBar_6.LocalScript 
+coroutine.wrap(GVVR_fake_script)()
+local function QUELH_fake_script() -- ToggleBar_6.LocalScript 
 	local script = Instance.new('LocalScript', ToggleBar_6)
 
 	local toggleScript = false
@@ -4831,8 +4737,8 @@ local function SNGIBN_fake_script() -- ToggleBar_6.LocalScript
 	script.Parent.MouseButton1Click:Connect(toggleButton)
 	
 end
-coroutine.wrap(SNGIBN_fake_script)()
-local function QBAPQSE_fake_script() -- TextLabel_50.LocalScript 
+coroutine.wrap(QUELH_fake_script)()
+local function HBZWPHG_fake_script() -- TextLabel_50.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_50)
 
 	local label = script.Parent.Parent.TextLabel
@@ -4852,8 +4758,8 @@ local function QBAPQSE_fake_script() -- TextLabel_50.LocalScript
 	end
 	
 end
-coroutine.wrap(QBAPQSE_fake_script)()
-local function ELUPTXN_fake_script() -- DName.LocalScript 
+coroutine.wrap(HBZWPHG_fake_script)()
+local function WCBP_fake_script() -- DName.LocalScript 
 	local script = Instance.new('LocalScript', DName)
 
 	local player = game.Players.LocalPlayer
@@ -4866,8 +4772,8 @@ local function ELUPTXN_fake_script() -- DName.LocalScript
 	end)
 	
 end
-coroutine.wrap(ELUPTXN_fake_script)()
-local function XTAVLU_fake_script() -- view.LocalScript 
+coroutine.wrap(WCBP_fake_script)()
+local function QDVNK_fake_script() -- view.LocalScript 
 	local script = Instance.new('LocalScript', view)
 
 	local ConsoleFrameRemove = script.Parent.Parent.Parent.Parent.ConsolePage
@@ -4879,8 +4785,8 @@ local function XTAVLU_fake_script() -- view.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XTAVLU_fake_script)()
-local function NVMWRJX_fake_script() -- Sidebar.TabHandler 
+coroutine.wrap(QDVNK_fake_script)()
+local function LYCG_fake_script() -- Sidebar.TabHandler 
 	local script = Instance.new('LocalScript', Sidebar)
 
 	local currentPage = 1
@@ -4958,8 +4864,8 @@ local function NVMWRJX_fake_script() -- Sidebar.TabHandler
 	end
 	
 end
-coroutine.wrap(NVMWRJX_fake_script)()
-local function GHOGFK_fake_script() -- closeBtn.LocalScript 
+coroutine.wrap(LYCG_fake_script)()
+local function ROJMOY_fake_script() -- closeBtn.LocalScript 
 	local script = Instance.new('LocalScript', closeBtn)
 
 	local isOpen = false
@@ -4996,8 +4902,8 @@ local function GHOGFK_fake_script() -- closeBtn.LocalScript
 	script.Parent.Parent.closeBtn.MouseButton1Click:Connect(CloseUI)
 	
 end
-coroutine.wrap(GHOGFK_fake_script)()
-local function ODQIF_fake_script() -- WelcomeWindow.LocalScript 
+coroutine.wrap(ROJMOY_fake_script)()
+local function FDFIFEA_fake_script() -- WelcomeWindow.LocalScript 
 	local script = Instance.new('LocalScript', WelcomeWindow)
 
 	local wmenu = script.Parent.Parent.WelcomeWindow
@@ -5006,8 +4912,8 @@ local function ODQIF_fake_script() -- WelcomeWindow.LocalScript
 	
 	wmenu.Visible = true
 end
-coroutine.wrap(ODQIF_fake_script)()
-local function VWWIL_fake_script() -- iagree.LocalScript 
+coroutine.wrap(FDFIFEA_fake_script)()
+local function DOGGWYC_fake_script() -- iagree.LocalScript 
 	local script = Instance.new('LocalScript', iagree)
 
 	local btn = script.Parent.Parent.iagree
@@ -5018,8 +4924,8 @@ local function VWWIL_fake_script() -- iagree.LocalScript
 		wmenu.Visible = false
 	end)
 end
-coroutine.wrap(VWWIL_fake_script)()
-local function UZWLAQH_fake_script() -- clear.TEST 
+coroutine.wrap(DOGGWYC_fake_script)()
+local function ZMOE_fake_script() -- clear.TEST 
 	local script = Instance.new('LocalScript', clear)
 
 	local btn = script.Parent.Parent.clear
@@ -5034,8 +4940,8 @@ local function UZWLAQH_fake_script() -- clear.TEST
 		clearW.Visible = false
 	end)
 end
-coroutine.wrap(UZWLAQH_fake_script)()
-local function DMFQR_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(ZMOE_fake_script)()
+local function WJKZ_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	local btn = script.Parent.Parent.TextButton
@@ -5046,8 +4952,8 @@ local function DMFQR_fake_script() -- TextButton_5.LocalScript
 		clearW.Visible = false
 	end)
 end
-coroutine.wrap(DMFQR_fake_script)()
-local function RNEL_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(WJKZ_fake_script)()
+local function ZAKOX_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local btn = script.Parent.Parent.ImageButton
@@ -5058,8 +4964,8 @@ local function RNEL_fake_script() -- ImageButton.LocalScript
 		clearW.Visible = false
 	end)
 end
-coroutine.wrap(RNEL_fake_script)()
-local function CPPA_fake_script() -- clear_2.TEST 
+coroutine.wrap(ZAKOX_fake_script)()
+local function GVMPU_fake_script() -- clear_2.TEST 
 	local script = Instance.new('LocalScript', clear_2)
 
 	local fileName = script.Parent.Parent.Parent.FileName.FileName
@@ -5333,8 +5239,8 @@ local function CPPA_fake_script() -- clear_2.TEST
 	end)
 	
 end
-coroutine.wrap(CPPA_fake_script)()
-local function XNKDD_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(GVMPU_fake_script)()
+local function BEBHS_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	local btn = script.Parent.Parent.TextButton
@@ -5345,8 +5251,8 @@ local function XNKDD_fake_script() -- TextButton_6.LocalScript
 		clearW.Visible = false
 	end)
 end
-coroutine.wrap(XNKDD_fake_script)()
-local function HDBWAMH_fake_script() -- ImageButton_2.LocalScript 
+coroutine.wrap(BEBHS_fake_script)()
+local function XDZE_fake_script() -- ImageButton_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_2)
 
 	local btn = script.Parent.Parent.ImageButton
@@ -5357,20 +5263,20 @@ local function HDBWAMH_fake_script() -- ImageButton_2.LocalScript
 		clearW.Visible = false
 	end)
 end
-coroutine.wrap(HDBWAMH_fake_script)()
-local function FZTUVK_fake_script() -- FileName_2.LocalScript 
+coroutine.wrap(XDZE_fake_script)()
+local function YGEXM_fake_script() -- FileName_2.LocalScript 
 	local script = Instance.new('LocalScript', FileName_2)
 
 	
 end
-coroutine.wrap(FZTUVK_fake_script)()
-local function CEFZO_fake_script() -- Scrip.LocalScript 
+coroutine.wrap(YGEXM_fake_script)()
+local function KPGLABL_fake_script() -- Scrip.LocalScript 
 	local script = Instance.new('LocalScript', Scrip)
 
 	
 end
-coroutine.wrap(CEFZO_fake_script)()
-local function LUQOGFY_fake_script() -- MainMenu.drag 
+coroutine.wrap(KPGLABL_fake_script)()
+local function CNMFOT_fake_script() -- MainMenu.drag 
 	local script = Instance.new('LocalScript', MainMenu)
 
 	local UIS = game:GetService('UserInputService')
@@ -5408,8 +5314,8 @@ local function LUQOGFY_fake_script() -- MainMenu.drag
 		end
 	end)
 end
-coroutine.wrap(LUQOGFY_fake_script)()
-local function BDMFZU_fake_script() -- message.LocalScript 
+coroutine.wrap(CNMFOT_fake_script)()
+local function IILO_fake_script() -- message.LocalScript 
 	local script = Instance.new('LocalScript', message)
 
 	--local frame = script.Parent.Parent.message
@@ -5430,4 +5336,4 @@ local function BDMFZU_fake_script() -- message.LocalScript
 	--	AnimateFrame()
 	
 end
-coroutine.wrap(BDMFZU_fake_script)()
+coroutine.wrap(IILO_fake_script)()
