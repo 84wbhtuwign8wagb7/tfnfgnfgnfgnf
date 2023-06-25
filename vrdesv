@@ -165,7 +165,7 @@
 				frame.BackgroundColor3 = Color3.fromRGB(43, 45, 52)
 				wait(0.1)
 				frame.BackgroundColor3 = Color3.fromRGB(36, 37, 43)
-		        loadstring(game:HttpGet(scrip.Text))()
+		        krypton_queuescript(scrip.Text)
 				print("🎉 Script successfully executed!🎉")
 			end)
 
